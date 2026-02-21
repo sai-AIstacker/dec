@@ -8,7 +8,7 @@
  * @copyright @dpredster
  * @link https://github.com/dpredster/Access_Log/ (Original extra module, now deprecated)
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

@@ -18,12 +18,12 @@ Do not forget to add the `.utf8` suffix to the locale code.
 | de_DE | German (Germany)              | **96%**   | Heike Gutsche, @0xD0M1M0 |
 | el_GR | Greek (Greece)                | **98%***  | Georgios Katakalos  |
 | en_CA | English (Canada)              | 1%        | RDH Associates Inc. |
-| es_ES | Spanish (Spain)               | **100%*** | RosarioSIS          |
+| es_ES | Spanish (Spain)               | **100%*** | Decan          |
 | et_EE | Estonian (Estonia)            | 33%       |                     |
 | fa_IR | Persian (Iran)                | 32%       |                     |
 | fi_FI | Finnish (Finland)             | 33%       |                     |
 | ga_IE | Irish (Ireland)               | 33%       |                     |
-| fr_FR | French (France)               | **100%*** | RosarioSIS, Étienne de Blois |
+| fr_FR | French (France)               | **100%*** | Decan, Étienne de Blois |
 | gl_GL | Galician                      | 33%       |                     |
 | hr_HR | Croatian (Croatia)            | 33%       |                     |
 | hu_HU | Hungarian (Hungary)           | 33%       |                     |

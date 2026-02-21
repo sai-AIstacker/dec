@@ -7,7 +7,7 @@
  * @since 12.3 Fix PHP8.4 Implicitly marking parameter as nullable is deprecated
  * @link https://github.com/erusev/parsedown/pull/900
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage classes
  */
 

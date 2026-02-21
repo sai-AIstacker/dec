@@ -4,7 +4,7 @@
  *
  * Included in ScheduleReport.php
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Scheduling
  */
 

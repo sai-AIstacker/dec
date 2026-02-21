@@ -5,7 +5,7 @@
  *
  * Inspired by & made to replace jQuery ScrollToFixed plugin (21Kb vs. 2Kb)
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage assets/js
  * @since 2.9.3
  * @since 3.4.2 Handle RTL languages (menu on the right).

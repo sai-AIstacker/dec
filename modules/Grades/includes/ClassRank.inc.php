@@ -4,7 +4,7 @@
  *
  * @see GPARankList.php, Transcripts.php, InputFinalGrades.php, ReportCards.php & EditReportCardGrades.php
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

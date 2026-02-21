@@ -2,7 +2,7 @@
 /**
  * (Student) Widgets function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -11,13 +11,13 @@
  * Essentially used in the Find a Student form
  *
  * @since 5.1 Medical Immunization or Physical Widget.
- * @since 8.6 Use RosarioSIS\Widgets
+ * @since 8.6 Use Decan\Widgets
  * @since 10.4 Add Widgets init action hook
  * @since 12.7 Autoload classes (PSR-4)
  *
  * @global array   $_ROSARIO Sets $_ROSARIO['SearchTerms']
  * @global array   $extra
- * @static object  $widgets  RosarioSIS\StaffWidgets instance
+ * @static object  $widgets  Decan\StaffWidgets instance
  *
  * @param  string  $item     Widget name or 'all' widgets.
  * @param  array   &$myextra Search.inc.php extra (HTML, functions...) (optional). Defaults to global $extra.
@@ -32,9 +32,9 @@ function Widgets( $item, &$myextra = null )
 	static $widgets;
 
 	// (Re)create it, if it's gone missing.
-	if ( ! ( $widgets instanceof RosarioSIS\Widgets ) )
+	if ( ! ( $widgets instanceof Decan\Widgets ) )
 	{
-		$widgets = new RosarioSIS\Widgets();
+		$widgets = new Decan\Widgets();
 	}
 
 	/**

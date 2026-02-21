@@ -1,7 +1,7 @@
 LOCALE
 ======
 
-The `locale/` folder contains the localization files used to translate RosarioSIS strings.
+The `locale/` folder contains the localization files used to translate Decan strings.
 
 
 Folders structure
@@ -32,7 +32,7 @@ server$ sudo apt-get install language-pack-fr
 
 Gettext & Poedit
 ----------------
-The localization system is `gettext`, and the `*.po` files can be edited using [Poedit](http://poedit.net/). To start (or complete) a translation, please follow [this tutorial](https://gitlab.com/francoisjacquet/rosariosis/wikis/Localizing,-translate-RosarioSIS-with-Poedit).
+The localization system is `gettext`, and the `*.po` files can be edited using [Poedit](http://poedit.net/). To start (or complete) a translation, please follow [this tutorial](https://gitlab.com/francoisjacquet/rosariosis/wikis/Localizing,-translate-Decan-with-Poedit).
 
 `.pot` files are available in `locale/en_US.utf8/LC_MESSAGES/`
 

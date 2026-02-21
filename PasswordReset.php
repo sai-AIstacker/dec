@@ -4,7 +4,7 @@
  *
  * @since 2.9
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 require_once 'Warehouse.php';

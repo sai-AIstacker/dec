@@ -2,7 +2,7 @@
 /**
  * Buttons functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

@@ -2,7 +2,7 @@
 /**
  * Database functions
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

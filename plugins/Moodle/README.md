@@ -1,22 +1,22 @@
 # Moodle Integrator Plugin
 
-This plugin is part of [RosarioSIS](https://www.rosariosis.org)
+This plugin is part of [Decan](https://www.rosariosis.org)
 
 Author François Jacquet
 
 ## Description
 
-This plugin integrates RosarioSIS with [Moodle LMS](https://moodle.org/). It lets you import Moodle users.
+This plugin integrates Decan with [Moodle LMS](https://moodle.org/). It lets you import Moodle users.
 
-RosarioSIS 12.7 removes XML-RPC compatibility classes. Rely on [PHP xmlrpc extension](https://php.watch/versions/8.0/xmlrpc).
+Decan 12.7 removes XML-RPC compatibility classes. Rely on [PHP xmlrpc extension](https://php.watch/versions/8.0/xmlrpc).
 
-RosarioSIS 13.0 will remove XML-RPC support entirely. Use the REST API instead.
+Decan 13.0 will remove XML-RPC support entirely. Use the REST API instead.
 
 ### WARNING & LIMITATION
 
-The plugin is designed and intended for ONE school only in RosarioSIS.
+The plugin is designed and intended for ONE school only in Decan.
 
-Users and courses can only be rolled ONCE in RosarioSIS.
+Users and courses can only be rolled ONCE in Decan.
 
 ## Content
 

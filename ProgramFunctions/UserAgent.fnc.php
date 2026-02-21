@@ -4,7 +4,7 @@
  *
  * @link http://php.net/get-browser
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

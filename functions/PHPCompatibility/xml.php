@@ -11,7 +11,7 @@
  *
  * @link https://github.com/symfony/polyfill/blob/master/src/Php72/Php72.php
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

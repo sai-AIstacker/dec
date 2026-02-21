@@ -2,7 +2,7 @@
 /**
  * File Upload functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -978,7 +978,7 @@ function FileExtensionWhiteList() {
  * Use instead of directly using unlink()
  * Check if file extension is white listed
  * Check for Hacking Attempt:
- * file is outside RosarioSIS, not in one of the global path variables & not in system temp dir
+ * file is outside Decan, not in one of the global path variables & not in system temp dir
  *
  * @since 12.0
  *
@@ -1018,7 +1018,7 @@ function FileDelete( $file_path, $ext_white_list = [] )
 
 	$real_path = realpath( $file_path );
 
-	// Check if file is inside RosarioSIS
+	// Check if file is inside Decan
 	if ( strpos( $real_path, realpath( $RosarioPath ) ) !== 0
 		// Check if file is in tmp dir
 		&& strpos( $real_path, sys_get_temp_dir() ) !== 0

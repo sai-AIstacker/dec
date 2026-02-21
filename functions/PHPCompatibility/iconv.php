@@ -14,7 +14,7 @@
  *
  * @link https://github.com/symfony/polyfill/tree/master/src/Iconv
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

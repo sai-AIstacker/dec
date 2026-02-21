@@ -5,7 +5,7 @@
  * @uses Chart.js plugin
  * @see  assets/js/Chart.js/
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

@@ -2,7 +2,7 @@
 /**
  * MarkDown & HTML functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -148,14 +148,14 @@ function SanitizeMarkDown( $md )
  *
  * @since 2.9
  * @since 5.5.3 Better base64 images detection.
- * @since 8.3   Add RosarioSIS URL to image path.
+ * @since 8.3   Add Decan URL to image path.
  * @since 12.7 Autoload classes (PSR-4)
  *
  * @static object $security
  *
  * @param  string $html                  HTML text.
  * @param  string $image_path            Path where to upload base64 images. Defaults to "assets/FileUploads/[Syear]/[staff_or_student_ID]/" (optional).
- * @param  bool   $add_url_to_image_path Add RosarioSIS URL to image path. Useful when HTML used in email to display remote images.
+ * @param  bool   $add_url_to_image_path Add Decan URL to image path. Useful when HTML used in email to display remote images.
  *
  * @return string Sanitized input with HTML encoded single quotes
  */

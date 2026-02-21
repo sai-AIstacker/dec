@@ -2,7 +2,7 @@
 /**
  * Mailing Label functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

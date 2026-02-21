@@ -75,7 +75,7 @@ $school_periods_select = SchoolPeriodsSelectInput(
 	issetVal( $_REQUEST['school_period'] ),
 	'school_period',
 	'',
-	// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+	// @since Decan 12.5 CSP remove unsafe-inline Javascript
 	// Note: `this.value` inside link is automatically replaced
 	'autocomplete="off" class="onchange-ajax-link" data-link="' .
 		PreparePHP_SELF( [], [ 'school_period' ] ) . '&school_period=this.value"'

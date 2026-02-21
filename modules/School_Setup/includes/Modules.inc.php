@@ -4,7 +4,7 @@ require_once 'modules/School_Setup/includes/Addon.fnc.php';
 
 // Modules configuration, included in Configuration.php
 
-// Core modules (packaged with RosarioSIS):
+// Core modules (packaged with Decan):
 // Core modules cannot be deleted
 /* var defined in Warehouse.php
 $RosarioCoreModules = array(

@@ -3,7 +3,7 @@
  * Student Labels functions
  * Define your own functions in an add-on module or plugin.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

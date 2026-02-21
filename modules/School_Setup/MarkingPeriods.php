@@ -429,7 +429,7 @@ if ( ! $_REQUEST['modfunc'] )
 				$delete_url = $mp_href . "&modfunc=delete";
 
 				$delete_button = '<input type="button" value="' . AttrEscape( _( 'Delete' ) ) .
-					// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+					// @since Decan 12.5 CSP remove unsafe-inline Javascript
 					'" class="onclick-ajax-link" data-link="' . URLEscape( $delete_url ) . '" />';
 			}
 		}
@@ -470,7 +470,7 @@ if ( ! $_REQUEST['modfunc'] )
 	if ( AllowEdit() )
 	{
 		// @since 4.1 Grade posting date inputs are required when "Graded" is checked.
-		// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+		// @since Decan 12.5 CSP remove unsafe-inline Javascript
 		$header .= '<script src="assets/js/csp/modules/schoolSetup/MarkingPeriods.js?v=12.5"></script>';
 	}
 

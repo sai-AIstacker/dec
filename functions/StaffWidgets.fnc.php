@@ -2,7 +2,7 @@
 /**
  * Staff Widgets function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -10,13 +10,13 @@
  * Staff Widgets
  * Essentially used in the Find a User form
  *
- * @since 8.6 Use RosarioSIS\StaffWidgets
+ * @since 8.6 Use Decan\StaffWidgets
  * @since 10.4 Add Staff Widgets init action hook
  * @since 12.7 Autoload classes (PSR-4)
  *
  * @global array   $_ROSARIO Sets $_ROSARIO['SearchTerms']
  * @global array   $extra
- * @static object  $widgets  RosarioSIS\StaffWidgets instance
+ * @static object  $widgets  Decan\StaffWidgets instance
  *
  * @param  string  $item     Staff widget name or 'all' Staff widgets.
  * @param  array   $myextra  Search.inc.php extra (HTML, functions...) (optional). Defaults to global $extra.
@@ -31,9 +31,9 @@ function StaffWidgets( $item, &$myextra = null )
 	static $widgets;
 
 	// (Re)create it, if it's gone missing.
-	if ( ! ( $widgets instanceof RosarioSIS\StaffWidgets ) )
+	if ( ! ( $widgets instanceof Decan\StaffWidgets ) )
 	{
-		$widgets = new RosarioSIS\StaffWidgets();
+		$widgets = new Decan\StaffWidgets();
 	}
 
 	/**

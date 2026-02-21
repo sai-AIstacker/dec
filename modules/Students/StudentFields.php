@@ -4,7 +4,7 @@
  *
  * @since 4.6 Merge Address Fields & Contact Fields programs with Student Fields program
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 
@@ -60,7 +60,7 @@ function _fieldsCategoryMenu( $category )
 			'contact' => _( 'Contact Fields' ),
 		],
 		false,
-		// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+		// @since Decan 12.5 CSP remove unsafe-inline Javascript
 		// Note: `this.value` inside link is automatically replaced
 		'class="onchange-ajax-link" data-link="' . $link . 'this.value" autocomplete="off"',
 		false

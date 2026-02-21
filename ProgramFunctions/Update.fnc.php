@@ -4,9 +4,9 @@
  *
  * Incremental updates
  *
- * Update() function called if ROSARIO_VERSION != version in DB
+ * Update() function called if DECAN_VERSION != version in DB
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -23,20 +23,20 @@ function Update()
 {
 	$from_version = Config( 'VERSION' );
 
-	$to_version = ROSARIO_VERSION;
+	$to_version = DECAN_VERSION;
 
 	/**
-	 * Check if Update() version < ROSARIO_VERSION.
+	 * Check if Update() version < DECAN_VERSION.
 	 *
 	 * Prevent DB version update if new Update.fnc.php file has NOT been uploaded YET.
 	 * Update must be run once both new Warehouse.php & Update.fnc.php files are uploaded.
 	 */
-	if ( version_compare( '12.7.2', ROSARIO_VERSION, '<' ) )
+	if ( version_compare( '12.7.2', DECAN_VERSION, '<' ) )
 	{
 		return false;
 	}
 
-	// Check if version in DB >= ROSARIO_VERSION.
+	// Check if version in DB >= DECAN_VERSION.
 	if ( version_compare( $from_version, $to_version, '>=' ) )
 	{
 		return false;
@@ -292,7 +292,7 @@ function Update()
 	}
 
 	// Update version in DB config table.
-	Config( 'VERSION', ROSARIO_VERSION );
+	Config( 'VERSION', DECAN_VERSION );
 
 	return $return;
 }

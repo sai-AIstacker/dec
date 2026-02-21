@@ -4,7 +4,7 @@
  *
  * @uses $menu global var
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  *
  * @see  Menu.php in root folder

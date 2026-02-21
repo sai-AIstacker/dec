@@ -2,7 +2,7 @@
 /**
  * Currency function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

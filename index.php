@@ -4,7 +4,7 @@
  *
  * Login screen
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 // FJ bugfix check accept cookies.
@@ -84,7 +84,7 @@ elseif ( isset( $_POST['USERNAME'] )
 	&& $_REQUEST['PASSWORD'] !== '' )
 {
 	// FJ check accept cookies.
-	if ( ! isset( $_COOKIE['RosarioSIS'] )
+	if ( ! isset( $_COOKIE['Decan'] )
 		&& ! isset( $_COOKIE[ $default_session_name ] ) )
 	{
 		header( 'Location: index.php?modfunc=logout&reason=cookie&token=' . $_SESSION['token'] );
@@ -93,7 +93,7 @@ elseif ( isset( $_POST['USERNAME'] )
 	}
 
 	// Only regenerate session ID if session.auto_start == 0.
-	elseif ( isset( $_COOKIE['RosarioSIS'] ) )
+	elseif ( isset( $_COOKIE['Decan'] ) )
 	{
 		session_regenerate_id( true ); // And invalidate old session.
 

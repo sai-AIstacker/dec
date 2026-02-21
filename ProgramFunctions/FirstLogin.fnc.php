@@ -281,7 +281,7 @@ if ( ! function_exists( 'FirstLoginPoll' ) )
 				$_SERVER['HTTP_X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR'] );
 			$data['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
 			$data['locale'] = $_SESSION['locale'];
-			$data['version'] = ROSARIO_VERSION;
+			$data['version'] = DECAN_VERSION;
 			$data['database'] = $DatabaseType;
 			// i.e. 8.1.3, get 8.1 back.
 			$data['php_version'] = (float) PHP_VERSION;
@@ -377,7 +377,7 @@ if ( ! function_exists( 'FirstLoginPoll' ) )
 		$buttons = Buttons( _( 'Submit' ) );
 
 		$buttons .= ' <input type="button" value="' . AttrEscape( _( 'Cancel' ) ) .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			'" class="onclick-ajax-link" data-link="index.php?modfunc=first-login&poll_cancel=Y" />';
 
 		$fields[] = '<div class="center">' . $buttons . '</div>';

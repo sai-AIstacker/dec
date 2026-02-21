@@ -11,7 +11,7 @@
  * The Catalog should only reference the Help_en.php file
  * and detect the `_help` function / source keyword.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Help
  *
  * @author François Jacquet
@@ -24,15 +24,15 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'You have access to any school in the system. To choose a school to work on, select the school from the pull-down menu on the left frame. The program will automatically refresh with the new school in the workspace. You can also change the school year and current marking period in a similar fashion.' ) . '</p>
 
-	<p>' . _help( 'As you use RosarioSIS, you will notice other items appear in your side menu. When you select a student to work on, the student\'s name will appear under the marking period pull-down menu preceded by a cross. As you move between programs, you will continue to work on this student. If you want to change the working student, click on the cross by the student\'s name. You can also quickly access the student\'s General Information screen by clicking on the student\'s name.' ) . '</p>
+	<p>' . _help( 'As you use Decan, you will notice other items appear in your side menu. When you select a student to work on, the student\'s name will appear under the marking period pull-down menu preceded by a cross. As you move between programs, you will continue to work on this student. If you want to change the working student, click on the cross by the student\'s name. You can also quickly access the student\'s General Information screen by clicking on the student\'s name.' ) . '</p>
 
 	<p>' . _help( 'If you select a user to work on, the user\'s name will also appear in the side menu. This will behave identically to the student\'s name.' ) . '</p>
 
 	<p>' . _help( 'Also, when you click on any of the module icons in the side menu, you will see a list of programs available to you in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
 
-	<p>' . _help( 'In many places in RosarioSIS, you will see lists of data that are modifiable. Oftentimes, you will have to first click the value you want to change to have access to an input field. Then, when you change the value and save, the value will return to its previous state.' ) . '</p>
+	<p>' . _help( 'In many places in Decan, you will see lists of data that are modifiable. Oftentimes, you will have to first click the value you want to change to have access to an input field. Then, when you change the value and save, the value will return to its previous state.' ) . '</p>
 
-	<p>' . _help( 'You can logout of RosarioSIS at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
+	<p>' . _help( 'You can logout of Decan at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
 
 elseif ( User( 'PROFILE' ) === 'teacher' ):
 
@@ -40,13 +40,13 @@ elseif ( User( 'PROFILE' ) === 'teacher' ):
 
 	<p>' . _help( 'To choose a period to work on, select the period from the pull-down menu on the left frame. The program will automatically refresh with the new period in the workspace. You can also change the school year and current marking period in a similar fashion.' ) . '</p>
 
-	<p>' . _help( 'As you use RosarioSIS, you will notice other items appear in your side menu. When you select a student to work on, the student\'s name will appear under the marking period pull-down menu preceded by a cross. As you move between programs, you will continue to work on this student. If you want to change the working student, click on the cross by the student\'s name. You can also quickly access the student\'s General Information screen by clicking on the student\'s name.' ) . '</p>
+	<p>' . _help( 'As you use Decan, you will notice other items appear in your side menu. When you select a student to work on, the student\'s name will appear under the marking period pull-down menu preceded by a cross. As you move between programs, you will continue to work on this student. If you want to change the working student, click on the cross by the student\'s name. You can also quickly access the student\'s General Information screen by clicking on the student\'s name.' ) . '</p>
 
 	<p>' . _help( 'Also, when you click on any of the module icons in the side menu, you will see a list of programs available to you in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
 
 	<p>' . _help( 'In the gradebook, you will see lists of modifiable data. Oftentimes, you will have to first click the value you want to change to have access to an input field. Then, when you change the value and save, the value will return to its previous state.' ) . '</p>
 
-	<p>' . _help( 'You can logout of RosarioSIS at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
+	<p>' . _help( 'You can logout of Decan at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
 
 elseif ( User( 'PROFILE' ) === 'parent' ):
 
@@ -54,9 +54,9 @@ elseif ( User( 'PROFILE' ) === 'parent' ):
 
 	<p>' . _help( 'To choose a child to work on, select the child\'s name from the pull-down menu on the left frame. The program will automatically refresh with the new child in the workspace. You can also change the school year and current marking period in a similar fashion.' ) . '</p>
 
-	<p>' . _help( 'As you use RosarioSIS, you will notice other items appear in your side menu. When you click on any of the module icons in the side menu, you will see a list of programs available in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
+	<p>' . _help( 'As you use Decan, you will notice other items appear in your side menu. When you click on any of the module icons in the side menu, you will see a list of programs available in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
 
-	<p>' . _help( 'You can logout of RosarioSIS at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
+	<p>' . _help( 'You can logout of Decan at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
 
 elseif ( User( 'PROFILE' ) === 'student' ):
 
@@ -64,9 +64,9 @@ elseif ( User( 'PROFILE' ) === 'student' ):
 
 	<p>' . _help( 'You can change the school year and current marking period with the pull-down menus in the left frame.' ) . '</p>
 
-	<p>' . _help( 'As you use RosarioSIS, you will notice other items appear in your side menu. When you click on any of the module icons in the side menu, you will see a list of programs available in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
+	<p>' . _help( 'As you use Decan, you will notice other items appear in your side menu. When you click on any of the module icons in the side menu, you will see a list of programs available in that module. Clicking on any program title will launch the program in the main frame, and it will update the help frame to display help for that program.' ) . '</p>
 
-	<p>' . _help( 'You can logout of RosarioSIS at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
+	<p>' . _help( 'You can logout of Decan at any time by clicking the "Logout" button in the bottom menu.' ) . '</p>';
 
 endif;
 
@@ -77,7 +77,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Note: a school cannot be deleted once it has students enrolled.' ) . '</p>';
 
-	$help['School_Setup/CopySchool.php'] = '<p>' . _help( '<i>Copy School</i> is a good way to add another school to RosarioSIS, where the Periods, Marking Periods, Grade levels, Grading Scales and Attendance Codes are similar to the school you copy. You will be able, of course, to make changes in the configuration after you have "copied" the school.' ) . '</p>
+	$help['School_Setup/CopySchool.php'] = '<p>' . _help( '<i>Copy School</i> is a good way to add another school to Decan, where the Periods, Marking Periods, Grade levels, Grading Scales and Attendance Codes are similar to the school you copy. You will be able, of course, to make changes in the configuration after you have "copied" the school.' ) . '</p>
 
 	<p>' . _help( 'If you don\'t want to copy one or more of these items, click on the checkbox corresponding to the item.' ) . '</p>
 
@@ -147,14 +147,14 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	$help['School_Setup/Configuration.php'] = '<p>' . _help( '<i>Configuration</i> offers various groups of options to help you configure:' ) . '</p>
 
-	<p>RosarioSIS</p>
+	<p>Decan</p>
 	<ul>
-		<li>' . _help( '<i>Program Title</i> & <i>Program Name</i>: rebrand RosarioSIS' ) . '</li>
+		<li>' . _help( '<i>Program Title</i> & <i>Program Name</i>: rebrand Decan' ) . '</li>
 		<li>' . _help( 'Set the <i>Default Theme</i>, and eventually <i>Force</i> it to override users\' preferred theme.' ) . '</li>
 		<li>' . _help( '<i>Create User Account</i> & <i>Create Student Account</i>: activate online registration. "Create User / Student Account" links will be displayed on the login page.' ) . '</li>
 		<li>' . _help( '<i>Automatic Student Account Activation</i>: new students are added as Inactive students. Check this box so students are enrolled on the same day.' ) . '</li>
 		<li>' . _help( '<i>Default School</i>: selected school on the "Create Student Account" screen.' ) . '</li>
-		<li>' . _help( '<i>Student email field</i>: choose the field which you will use to store your students emails. This can be the Username field or any other text field from the General Info tab. Setting this field will enable new features for or related to students within RosarioSIS such as "Password Reset".' ) . '</li>
+		<li>' . _help( '<i>Student email field</i>: choose the field which you will use to store your students emails. This can be the Username field or any other text field from the General Info tab. Setting this field will enable new features for or related to students within Decan such as "Password Reset".' ) . '</li>
 		<li>' . _help( '<i>Failed Login Attempts Limit</i>: ban access during 10 minutes if failed login attempts limit is reached. The "Too many failed login attempts. Please try logging in later." error will be shown on the login screen and the corresponding Access Log will have the "Banned" status.' ) . '</li>
 		<li>' . _help( '<i>Password Strength</i>: minimum password strength required. Estimations are based on the <i>zxcvbn</i> tool. Set to 0 to disable.' ) . '</li>
 		<li>' . _help( '<i>Force Password Change on First Login</i>: activate to prompt users and students for a new password when they login for the first time.' ) . '</li>
@@ -191,7 +191,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'The Attendance module:' ) . '</p>
 	<ul>
-		<li>' . _help( '<i>Minutes in a Full School Day</i>: if a student attends school for 300 minutes or more, RosarioSIS will automatically mark him Present for the day. If a student attends school for 150 minutes to 299 minutes, RosarioSIS will marked him Half Day present. If a student attends school for less than 150 minutes, RosarioSIS will mark him Absent. If your School Day is not 300 minutes long, then please adjust the Minutes in a Full School Day' ) . '<br />' .
+		<li>' . _help( '<i>Minutes in a Full School Day</i>: if a student attends school for 300 minutes or more, Decan will automatically mark him Present for the day. If a student attends school for 150 minutes to 299 minutes, Decan will marked him Half Day present. If a student attends school for less than 150 minutes, Decan will mark him Absent. If your School Day is not 300 minutes long, then please adjust the Minutes in a Full School Day' ) . '<br />' .
 		_help( 'Set to 0 for dynamic Daily Attendance calculation based on total course period minutes. That is, the sum of the lengths of each course period during the day. Period lengths (in minutes) are defined in the School > Periods program.' ) . '</li>
 		<li>' . _help( '<i>Number of days before / after the school date teachers can edit attendance</i>: leave the fields blank to always allow teachers to edit attendance' ) . '</li>
 	</ul>
@@ -202,9 +202,9 @@ if ( User( 'PROFILE' ) === 'admin' ):
 		<li>' . _help( '<i>Food Service Balance minimum amount</i>: set the minimum amount allowed' ) . '</li>
 		<li>' . _help( '<i>Food Service Balance target amount</i>: set the target amount to calculate the minimum deposit' ) . '</li>
 	</ul>
-	<p>' . _help( '<b>Modules</b> tab: manage RosarioSIS modules. Deactivate any module you will not use or install new ones.' ) . '</p>
+	<p>' . _help( '<b>Modules</b> tab: manage Decan modules. Deactivate any module you will not use or install new ones.' ) . '</p>
 
-	<p>' . _help( '<b>Plugins</b> tab: manage RosarioSIS plugins. Activate, deactivate and configure plugins. Click on the plugin title to get more information.' ) . '</p>';
+	<p>' . _help( '<b>Plugins</b> tab: manage Decan plugins. Activate, deactivate and configure plugins. Click on the plugin title to get more information.' ) . '</p>';
 
 	$help['School_Setup/SchoolFields.php'] = '<p>' . _help( '<i>School Fields</i> allows you to add new fields to the School Information screen.' ) . '</p>
 
@@ -213,7 +213,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 	<p>' . _help( 'Click on the "+" icon below the "No School Fields were found" text. Fill in the Field Name field(s), and then choose what type of field you wish with the "Data Type" pull-down.' ) . '</p>
 	<ul>
 	<li>' . _help( '"Pull-Down" fields create menus from which you can select one option. To create this type of field, click on "Pull-Down" and then add your options (one per line) in the "Pull-Down/Auto Pull-down/Export Pull-Down/Select Multiple from Options" text box.' ) . '</li>
-	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. RosarioSIS gets all the options that have been added to this field to create the pull-down.' ) . '</li>
+	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. Decan gets all the options that have been added to this field to create the pull-down.' ) . '</li>
 	<li>' . _help( '"Export Pull-Down" fields are created by adding options to the large text box respecting the following pattern: "option shown"|"option exported". For example: "Two|2", where "Two" is displayed on screen to the user, and "2" is the value in a downloaded spreadsheet.' ) . '</li>
 	<li>' . _help( '"Select Multiple from options" fields create multiple checkboxes to choose one or more options.' ) . '</li>
 	<li>' . _help( '"Text" fields create alphanumeric text fields with a maximum capacity of 255 characters.' ) . '</li>
@@ -251,7 +251,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	$help['Students/Student.php&include=General_Info&student_id=new'] = '<p>' . _help( '<i>Add a Student</i> allows you to add a student to the system and enroll it.' ) . '</p>
 
-	<p>' . _help( 'To add the student, enter the birth date, social security number, ethnicity, gender, birthplace, and grade. Then, select the effective date of the student\'s enrollment and the enrollment code from the pull-down menus at the bottom of the page. If you wish to specify a student ID for this student, enter the student ID into the text field labeled RosarioSIS ID. if you leave this field blank, RosarioSIS will generate an unused student ID and assign it to the new student. Finally, click the "Save" button at the top of the screen.' ) . '</p>
+	<p>' . _help( 'To add the student, enter the birth date, social security number, ethnicity, gender, birthplace, and grade. Then, select the effective date of the student\'s enrollment and the enrollment code from the pull-down menus at the bottom of the page. If you wish to specify a student ID for this student, enter the student ID into the text field labeled Decan ID. if you leave this field blank, Decan will generate an unused student ID and assign it to the new student. Finally, click the "Save" button at the top of the screen.' ) . '</p>
 
 	<p>' . _help( 'Note: a student cannot be deleted once it is enrolled in courses, has grades, attendance records, discipline referrals, or billing fees. You can drop him instead.' ) . '</p>';
 
@@ -275,7 +275,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 		<li><b>' . _help( 'First Name:' ) . '</b> __FIRST_NAME__</li>
 		<li><b>' . _help( 'Middle Name:' ) . '</b> __MIDDLE_NAME__</li>
 		<li><b>' . _help( 'Last Name:' ) . '</b> __LAST_NAME__</li>
-		<li><b>' . _help( 'RosarioSIS ID:' ) . '</b> __STUDENT_ID__</li>
+		<li><b>' . _help( 'Decan ID:' ) . '</b> __STUDENT_ID__</li>
 		<li><b>' . _help( 'School:' ) . '</b> __SCHOOL_ID__</li>
 		<li><b>' . _help( 'Grade Level:' ) . '</b> __GRADE_ID__</li>
 	</ul>
@@ -411,7 +411,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Data Field Categories' ) . '</p>
 
-	<p>' . _help( 'RosarioSIS allows you to add custom categories that will take the form of new "Tabs" of Data Fields in the Students > Student Info program. To create a new category or "tab", just click on the "+" icon below the existing Categories.' ) . '</p>
+	<p>' . _help( 'Decan allows you to add custom categories that will take the form of new "Tabs" of Data Fields in the Students > Student Info program. To create a new category or "tab", just click on the "+" icon below the existing Categories.' ) . '</p>
 
 	<p>' . _help( 'New Category' ) . '</p>
 
@@ -422,7 +422,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 	<p>' . _help( 'Click on the "+" icon below the "No Student Fields were found" text. Fill in the Field Name field(s), and then choose what type of field you wish with the "Data Type" pull-down.' ) . '</p>
 	<ul>
 	<li>' . _help( '"Pull-Down" fields create menus from which you can select one option. To create this type of field, click on "Pull-Down" and then add your options (one per line) in the "Pull-Down/Auto Pull-down/Export Pull-Down/Select Multiple from Options" text box.' ) . '</li>
-	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. RosarioSIS gets all the options that have been added to this field to create the pull-down.' ) . '</li>
+	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. Decan gets all the options that have been added to this field to create the pull-down.' ) . '</li>
 	<li>' . _help( '"Export Pull-Down" fields are created by adding options to the large text box respecting the following pattern: "option shown"|"option exported". For example: "Two|2", where "Two" is displayed on screen to the user, and "2" is the value in a downloaded spreadsheet.' ) . '</li>
 	<li>' . _help( '"Select Multiple from options" fields create multiple checkboxes to choose one or more options.' ) . '</li>
 	<li>' . _help( '"Text" fields create alphanumeric text fields with a maximum capacity of 255 characters.' ) . '</li>
@@ -484,11 +484,11 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'At any time after a user has been selected, you can see the students already associated with that user. These students are listed to the top of the student search screen / search results. These students can be disassociated from this user by clicking the delete icon (-) next to the student you wish to disassociate from the user. You will be asked to confirm this action.' ) . '</p>';
 
-	$help['Users/Preferences.php'] = '<p>' . _help( '<i>My Preferences</i> will let you personalize RosarioSIS to meet your own needs. You can also change your password, and setup RosarioSIS to show data that is important for your work.' ) . '</p>
+	$help['Users/Preferences.php'] = '<p>' . _help( '<i>My Preferences</i> will let you personalize Decan to meet your own needs. You can also change your password, and setup Decan to show data that is important for your work.' ) . '</p>
 
 	<p>' . _help( 'Display Options tab' ) . '</p>
 
-	<p>' . _help( 'It allows you to select your preferred RosarioSIS theme. You can change the theme (overall color scheme) or within a particular theme, the Highlight Color. You can also set the date format, like changing the month to "January", or "Jan" or "01". "Disable Login Alerts" will hide the alerts shown on the Portal (first page after login), like the Teachers missing attendance, the new discipline Referrals & the Food Service balance alerts.' ) . '</p>
+	<p>' . _help( 'It allows you to select your preferred Decan theme. You can change the theme (overall color scheme) or within a particular theme, the Highlight Color. You can also set the date format, like changing the month to "January", or "Jan" or "01". "Disable Login Alerts" will hide the alerts shown on the Portal (first page after login), like the Teachers missing attendance, the new discipline Referrals & the Food Service balance alerts.' ) . '</p>
 
 	<p>' . _help( 'Student Listing tab' ) . '</p>
 
@@ -504,7 +504,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	$help['Users/Profiles.php'] = '<p>' . _help( '<i>User Profiles</i> helps you configure how the users access to the information, and if they can modify it.' ) . '</p>
 
-	<p>' . _help( 'RosarioSIS comes with four groups as profiles: Administrator, Teacher, Parent & Student. The Administrator Profile has the most permissions, and the other profiles are restricted as appropriate. Please note that teachers are limited in access to the students scheduled in their classes, and that parents can only see the information of thier children, and that students can only see their personal information.' ) . '</p>
+	<p>' . _help( 'Decan comes with four groups as profiles: Administrator, Teacher, Parent & Student. The Administrator Profile has the most permissions, and the other profiles are restricted as appropriate. Please note that teachers are limited in access to the students scheduled in their classes, and that parents can only see the information of thier children, and that students can only see their personal information.' ) . '</p>
 
 	<p>' . _help( 'If you click on one of the Profiles, you will see the Permissions Page. This page shows to which page(s) the profile has access to READ (Can Use) or to WRITE (Can Edit) the information on that particular page.' ) . '</p>
 
@@ -520,7 +520,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Teacher Profile' ) . '</p>
 
-	<p>' . _help( 'Teachers have the permission to access a more limited set of pages within RosarioSIS, and their ability to edit those pages is more restricted. By default, teachers cannot change any data about a student EXCEPT for the Comments tab.' ) . '</p>
+	<p>' . _help( 'Teachers have the permission to access a more limited set of pages within Decan, and their ability to edit those pages is more restricted. By default, teachers cannot change any data about a student EXCEPT for the Comments tab.' ) . '</p>
 
 	<p>' . _help( 'Parent Profile' ) . '</p>
 
@@ -544,7 +544,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'User Field Categories' ) . '</p>
 
-	<p>' . _help( 'RosarioSIS allows you to add custom categories that will take the form of new "Tabs" of User Fields in the Users > User Info program. To create a new category or "tab", just click on the "+" icon below the existing Categories.' ) . '</p>
+	<p>' . _help( 'Decan allows you to add custom categories that will take the form of new "Tabs" of User Fields in the Users > User Info program. To create a new category or "tab", just click on the "+" icon below the existing Categories.' ) . '</p>
 
 	<p>' . _help( 'New Category' ) . '</p>
 
@@ -555,7 +555,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 	<p>' . _help( 'Click on the "+" icon below the "No User Fields were found" text. Fill in the Field Name field(s), and then choose what type of field you wish with the "Data Type" pull-down.' ) . '</p>
 	<ul>
 	<li>' . _help( '"Pull-Down" fields create menus from which you can select one option. To create this type of field, click on "Pull-Down" and then add your options (one per line) in the "Pull-Down/Auto Pull-down/Export Pull-Down/Select Multiple from Options" text box.' ) . '</li>
-	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. RosarioSIS gets all the options that have been added to this field to create the pull-down.' ) . '</li>
+	<li>' . _help( '"Auto Pull-Down" fields create menus from which you can select one option, and add options. You add options by selecting the "-Edit-" option in the menu choices and click "Save". You can then edit the field by removing the red "-Edit-" from the field, entering the correct information. Decan gets all the options that have been added to this field to create the pull-down.' ) . '</li>
 	<li>' . _help( '"Export Pull-Down" fields are created by adding options to the large text box respecting the following pattern: "option shown"|"option exported". For example: "Two|2", where "Two" is displayed on screen to the user, and "2" is the value in a downloaded spreadsheet.' ) . '</li>
 	<li>' . _help( '"Select Multiple from options" fields create multiple checkboxes to choose one or more options.' ) . '</li>
 	<li>' . _help( '"Text" fields create alphanumeric text fields with a maximum capacity of 255 characters.' ) . '</li>
@@ -577,7 +577,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Once you are in the correct marking period, you can enter student grades by selecting the earned grade for each student and entering comments as desired. Once all the grades and comments have been entered, click the "Save" button at the top of the screen.' ) . '</p>
 
-	<p>' . _help( 'If the selected teacher is using the Gradebook, you can have RosarioSIS calculate each student\'s quarter grades by clicking on the "Get Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s grades and refresh the list.' ) . '</p>
+	<p>' . _help( 'If the selected teacher is using the Gradebook, you can have Decan calculate each student\'s quarter grades by clicking on the "Get Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s grades and refresh the list.' ) . '</p>
 
 	<p>' . _help( 'If the marking period you are in is a Progress Period, when clicking on the "Get Gradebook Grades" link, the gades taken in account will be limited to the one for which the Assignment Due Date is comprised within the Progress Period, or the ones with no Due Dates.' ) . '</p>';
 
@@ -609,7 +609,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Once you are in the correct period, you can enter eligibility grades by selecting the eligibility code corresponding to each student. Once you have entered eligibility for all the students, click the "Save" button at the top of the screen.' ) . '</p>
 
-	<p>' . _help( 'If the selected teacher is using the Gradebook, you can have RosarioSIS calculate each student\'s eligibility grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s eligibility grades and refresh the list.' ) . '</p>
+	<p>' . _help( 'If the selected teacher is using the Gradebook, you can have Decan calculate each student\'s eligibility grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s eligibility grades and refresh the list.' ) . '</p>
 
 	<p>' . _help( 'You must enter eligibility each week during the timeframe specified by your school\'s administration.' ) . '</p>';
 
@@ -833,7 +833,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	$help['Grades/GPARankList.php'] = '<p>' . _help( '<i>GPA / Class Rank List</i> is a report that shows the unweighted GPA, weighted GPA, and class rank of each student at your school.' ) . '</p>
 
-	<p>' . _help( 'As with any list in RosarioSIS, you can sort by any value displayed by clicking on the coresponding column heading. For example, you can sort by grade by clicking on the "Grade" column heading. Similarly, you can sort by unweighted GPA by clicking on the "Unweighted GPA" column heading.' ) . '</p>';
+	<p>' . _help( 'As with any list in Decan, you can sort by any value displayed by clicking on the coresponding column heading. For example, you can sort by grade by clicking on the "Grade" column heading. Similarly, you can sort by unweighted GPA by clicking on the "Unweighted GPA" column heading.' ) . '</p>';
 
 	$help['Grades/Configuration.php'] = '<p>' . _help( '<i>Configuration</i> allows you to override individual teacher configuration and configure the gradebook for them.' ) . '</p>
 
@@ -861,7 +861,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'The "All Courses" tab is where you create Comments that apply to All Courses, for example to grade conduct, or a quality of the students that all courses share in common. The (+) tab is where you add other comments, specifically course-specific comment tabs and comments.' ) . '</p>
 
-	<p>' . _help( 'The "General" tab contains the comments that are added when entering students\' grades in the "Input Final Grades" program. Teachers can use the pull-down menu under the "General" tab to add one or more pre-designed comments to the report card. Please note that RosarioSIS has placeholder symbols that can be used in these comments: "^n" will be replaced by the student\'s first name, while "^s" will be replaced a gender-appropriate pronoun. For example, the comment "^n Comes to ^s Class Unprepared" will be translated to "John Comes to his Class Unprepared" in John Smith\'s report card.' ) . '</p>
+	<p>' . _help( 'The "General" tab contains the comments that are added when entering students\' grades in the "Input Final Grades" program. Teachers can use the pull-down menu under the "General" tab to add one or more pre-designed comments to the report card. Please note that Decan has placeholder symbols that can be used in these comments: "^n" will be replaced by the student\'s first name, while "^s" will be replaced a gender-appropriate pronoun. For example, the comment "^n Comes to ^s Class Unprepared" will be translated to "John Comes to his Class Unprepared" in John Smith\'s report card.' ) . '</p>
 
 	<p>' . _help( 'The "All Courses" tab allows you to create Comments that apply to All Courses. Enter the Comment name and associate it to a "Code Scale" (created in the "Comment Codes" program) using the pull-down menu. The result will be a new column for the comment in the "Input Final Grades" program, under the "All Courses" tab. The column will display a pull-down menu with the comment codes of the scale associated.' ) . '</p>
 
@@ -873,7 +873,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	$help['Grades/EditHistoryMarkingPeriods.php'] = '<p>' . _help( '<i>History Marking Periods</i> allows you to create marking periods for past years grades.' ) . '</p>
 
-	<p>' . _help( 'Use this program first if you want to enter past years grades into RosarioSIS that were given before installing RosarioSIS, or if you want to enter grades for a student transferred to your school. Once the history marking period is added, you will be able to select it via the Historical Grades program.' ) . '</p>
+	<p>' . _help( 'Use this program first if you want to enter past years grades into Decan that were given before installing Decan, or if you want to enter grades for a student transferred to your school. Once the history marking period is added, you will be able to select it via the Historical Grades program.' ) . '</p>
 
 	<p>' . _help( 'Please note that the "Grade Post Date" field determines the order of the history marking periods when entering grades or generating the Transcript and should therefore be entered properly. Also, each history marking period needs to be created only once.' ) . '</p>';
 
@@ -885,7 +885,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'You can add the student grades via the "Grades" tab. Enter the "Course Name" and the grades associated, then click "Save". Please note that you can use a custom grade scale for the GPA calculation.' ) . '</p>
 
-	<p>' . _help( 'RosarioSIS needs credits to calculate the GPA. Please check the "Credits" tab and adjust the credits for each course as needed.' ) . '</p>';
+	<p>' . _help( 'Decan needs credits to calculate the GPA. Please check the "Credits" tab and adjust the credits for each course as needed.' ) . '</p>';
 
 	$help['Grades/MassCreateAssignments.php'] = '<p>' . _help( '<i>Mass Create Assignments</i> allows you to create assignments for multiple courses at once. There are two tiers involved with assignments: assignment types and assignments.' ) . '</p>
 
@@ -909,7 +909,7 @@ elseif ( User( 'PROFILE' ) === 'teacher' ):
 
 	<p>' . _help( 'Once you are in the correct marking period, you can enter student grades by selecting the earned grade for each student and entering comments as desired. Once all the grades and comments have been entered, click the "Save" button at the top of the screen.' ) . '</p>
 
-	<p>' . _help( 'If you are using the Gradebook, you can have RosarioSIS calculate each student\'s quarter grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s grades and refresh the list.' ) . '</p>
+	<p>' . _help( 'If you are using the Gradebook, you can have Decan calculate each student\'s quarter grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s grades and refresh the list.' ) . '</p>
 
 	<p>' . _help( 'If the marking period you are in is a Progress Period, when clicking on the "Get Gradebook Grades" link, the gades taken in account will be limited to the one for which the Assignment Due Date is comprised within the Progress Period, or the ones with no Due Dates.' ) . '</p>';
 
@@ -1059,7 +1059,7 @@ if ( User( 'PROFILE' ) === 'admin' ):
 
 	<p>' . _help( 'Attendance Categories' ) . '</p>
 
-	<p>' . _help( 'RosarioSIS allows you to add custom categories that will take the form of new "Tabs" in the <i>Scheduling > Take Attendance</i> program. To create a new category or "tab", just click on the "+" icon next to the existing Categories.' ) . '</p>
+	<p>' . _help( 'Decan allows you to add custom categories that will take the form of new "Tabs" in the <i>Scheduling > Take Attendance</i> program. To create a new category or "tab", just click on the "+" icon next to the existing Categories.' ) . '</p>
 
 	<p>' . _help( 'New Category' ) . '</p>
 
@@ -1147,7 +1147,7 @@ elseif ( User( 'PROFILE' ) === 'teacher' ):
 
 	<p>' . _help( 'Once you are in the correct period, you can enter eligibility grades by selecting the eligibility code corresponding to each student. Once you have entered eligibility for all your students, click the "Save" button at the top of the screen.' ) . '</p>
 
-	<p>' . _help( 'If you are using the Gradebook, you can have RosarioSIS calculate each student\'s eligibility grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s eligibility grades and refresh the list.' ) . '</p>
+	<p>' . _help( 'If you are using the Gradebook, you can have Decan calculate each student\'s eligibility grades by clicking on the "Use Gradebook Grades" link at the top of the list. Clicking this link will automatically save each student\'s eligibility grades and refresh the list.' ) . '</p>
 
 	<p>' . _help( 'You must enter eligibility each week during the timeframe specified by your school\'s administration.' ) . '</p>';
 

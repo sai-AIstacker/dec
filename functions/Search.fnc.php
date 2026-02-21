@@ -2,7 +2,7 @@
 /**
  * Search Students or Staff function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

@@ -2,7 +2,7 @@
 /**
  * Program Title function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -19,7 +19,7 @@
  *
  * @param  string $modname  Specify program/modname (optional).
  *
- * @return string Program title or 'RosarioSIS' if not found
+ * @return string Program title or 'Decan' if not found
  */
 function ProgramTitle( $modname = '' )
 {

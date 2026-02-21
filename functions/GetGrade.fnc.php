@@ -2,7 +2,7 @@
 /**
  * Get Grade Level Info function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

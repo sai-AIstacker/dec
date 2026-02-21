@@ -8,7 +8,7 @@
  *
  * Save it in $_ROSARIO['Menu'] global var
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 if ( ! empty( $_ROSARIO['Menu'] ) )

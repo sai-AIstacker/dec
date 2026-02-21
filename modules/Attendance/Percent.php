@@ -20,7 +20,7 @@ $report_select = SelectInput(
 		'true' => _( 'Average Attendance by Day' ),
 	],
 	false,
-	// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+	// @since Decan 12.5 CSP remove unsafe-inline Javascript
 	// Note: `this.value` inside link is automatically replaced
 	'class="onchange-ajax-link" data-link="' . $report_link . 'this.value" autocomplete="off"',
 	false

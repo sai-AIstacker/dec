@@ -11,7 +11,7 @@
  * @since 3.3
  * @since 12.2 Add WebP image format support
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage classes
  */
 

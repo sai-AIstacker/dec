@@ -3,7 +3,7 @@
  * Add-on functions
  * Used by Modules.inc.php & Plugins.inc.php
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**
@@ -285,7 +285,7 @@ function AddonZipCanUnzip( $zip_path )
  * @see `ROSARIO_DISABLE_USAGE_STATISTICS` optional configuration constant
  *
  * @since 12.0
- * @since 12.2 Send RosarioSIS version
+ * @since 12.2 Send Decan version
  *
  * @param string $type      Add-on type: module|plugin.
  * @param string $addon_dir Add-on directory. For example: 'My_Module'.
@@ -326,7 +326,7 @@ function AddonInstallationStatisticsPost( $type, $addon_dir )
 			'type' => $type,
 			'addon_dir' => $addon_dir,
 			'lang' => mb_substr( $_SESSION['locale'], 0, 5 ),
-			'rosario_version' => ROSARIO_VERSION,
+			'rosario_version' => DECAN_VERSION,
 			'user_agent' => $_SERVER['HTTP_USER_AGENT'],
 			'ip' => $ip,
 		];

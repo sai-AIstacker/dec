@@ -2,7 +2,7 @@
 /**
  * ConverterExtra
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage classes/Markdownify
  */
 

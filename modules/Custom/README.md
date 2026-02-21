@@ -1,7 +1,7 @@
 Custom module
 =============
 
-This module is part of [RosarioSIS](https://www.rosariosis.org)
+This module is part of [Decan](https://www.rosariosis.org)
 
 Author François Jacquet
 Remove Access program sponsored by Santa Cecilia school, Salvador.
@@ -9,7 +9,7 @@ Administrators can customize the Registration form, sponsored by English Nationa
 
 ## Description
 
-This module adds 6 utilities to other modules of RosarioSIS.
+This module adds 6 utilities to other modules of Decan.
 
 ## Content
 
@@ -22,7 +22,7 @@ Students
 
 Users
 
-- Notify Parents (who never logged into RosarioSIS)
+- Notify Parents (who never logged into Decan)
 
 Attendance
 

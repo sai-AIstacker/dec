@@ -5,7 +5,7 @@
  * Displays bottom menu
  * Handles Print & Inline Help functionalities
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 require_once 'Warehouse.php';

@@ -201,7 +201,7 @@ if ( ! $_REQUEST['modfunc'] )
 		$category_onchange_URL = PreparePHP_SELF( $_REQUEST, [ 'category_id' ] ) . '&category_id=';
 
 		echo '<select name="category_id" id="category_id" ' .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			// Note: `this.value` inside link is automatically replaced
 			'class="onchange-ajax-link" data-link="' . $category_onchange_URL . 'this.value">';
 
@@ -518,7 +518,7 @@ function _makeSelectInput( $column, $options, $title = '' )
 			);
 		}
 
-		// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+		// @since Decan 12.5 CSP remove unsafe-inline Javascript
 		// When -Edit- option selected, change the auto pull-down to text field.
 		$extra .= ' class="onchange-maybe-edit-select"';
 	}

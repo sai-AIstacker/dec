@@ -4,7 +4,7 @@
  *
  * @see InputFinalGrades.php, Grades.php, Assignments.php & Grades Import module
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 if ( $_REQUEST['modfunc'] === 'final_grades_all_mp_save_ajax' )

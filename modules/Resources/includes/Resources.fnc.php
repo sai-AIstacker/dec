@@ -2,7 +2,7 @@
 /**
  * Resources functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Resources module
  */
 

@@ -2,7 +2,7 @@
 /**
  * Get Teacher Info function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

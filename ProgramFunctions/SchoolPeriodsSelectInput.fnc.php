@@ -2,7 +2,7 @@
 /**
  * School Periods select input function.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

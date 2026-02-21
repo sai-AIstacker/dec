@@ -6,7 +6,7 @@
  *
  * @since 4.8
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 // Remove or grant access for students.

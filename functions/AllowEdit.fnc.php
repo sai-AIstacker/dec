@@ -5,7 +5,7 @@
  *
  * @see Users > User Profiles & User Permissions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

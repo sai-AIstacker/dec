@@ -2,7 +2,7 @@
 /**
  * Attendance Codes functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

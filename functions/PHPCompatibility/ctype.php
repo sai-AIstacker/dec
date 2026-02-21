@@ -11,7 +11,7 @@
  *
  * @link https://github.com/symfony/polyfill/tree/master/src/Ctype
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

@@ -6,7 +6,7 @@
  *
  * TRANSLATION: do NOT translate these error messages since they need to stay in English for technical support.
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 $error = [];
@@ -16,7 +16,7 @@ $warning = [];
 // FJ check PHP version.
 if ( version_compare( PHP_VERSION, '5.5.9' ) == -1 )
 {
-	$error[] = 'RosarioSIS requires PHP 5.5.9 to run, your version is : ' . PHP_VERSION;
+	$error[] = 'Decan requires PHP 5.5.9 to run, your version is : ' . PHP_VERSION;
 }
 
 // FJ verify PHP extensions and php.ini.
@@ -37,7 +37,7 @@ if ( count( $error ) )
 
 if ( ! file_exists( './Warehouse.php' ) )
 {
-	$error[] = 'The diagnostic.php file needs to be in the RosarioSIS directory to be able to run. Please move it there, and run it again.';
+	$error[] = 'The diagnostic.php file needs to be in the Decan directory to be able to run. Please move it there, and run it again.';
 }
 elseif ( ! include_once './config.inc.php' )
 {
@@ -47,7 +47,7 @@ else
 {
 	if ( ! @opendir( $RosarioPath . 'functions' ) )
 	{
-		$error[] = 'The value for $RosarioPath in the config.inc.php file is not correct or else the functions directory does not have the correct permissions to be read by the webserver. Make sure $RosarioPath points to the RosarioSIS installation directory and that it is readable by the `' . $_SERVER['USER'] . '` user.';
+		$error[] = 'The value for $RosarioPath in the config.inc.php file is not correct or else the functions directory does not have the correct permissions to be read by the webserver. Make sure $RosarioPath points to the Decan installation directory and that it is readable by the `' . $_SERVER['USER'] . '` user.';
 	}
 
 	if ( empty( $DatabaseType ) )
@@ -64,12 +64,12 @@ else
 	elseif ( $DatabaseType === 'postgresql'
 		&& ! function_exists( 'pg_connect' ) )
 	{
-		$error[] = 'PHP extensions: RosarioSIS relies on the pgsql extension (used to connect to the PostgreSQL database). Please install and activate it.';
+		$error[] = 'PHP extensions: Decan relies on the pgsql extension (used to connect to the PostgreSQL database). Please install and activate it.';
 	}
 	elseif ( $DatabaseType === 'mysql'
 		&& ! function_exists( 'mysqli_connect' ) )
 	{
-		$error[] = 'PHP extensions: RosarioSIS relies on the mysql (or mysqli) extension (used to connect to the MySQL database). Please install and activate it.';
+		$error[] = 'PHP extensions: Decan relies on the mysql (or mysqli) extension (used to connect to the MySQL database). Please install and activate it.';
 	}
 	else
 	{
@@ -79,7 +79,7 @@ else
 
 		if ( ! $db_connection )
 		{
-			$error[] = 'RosarioSIS cannot connect to the ' . ( $DatabaseType === 'mysql' ? 'MySQL' : 'PostgreSQL' ) . ' database server. Please review the database configuration variables in the config.inc.php file.';
+			$error[] = 'Decan cannot connect to the ' . ( $DatabaseType === 'mysql' ? 'MySQL' : 'PostgreSQL' ) . ' database server. Please review the database configuration variables in the config.inc.php file.';
 
 			$error[] = ( $DatabaseType === 'mysql' ? mysqli_connect_error() : error_get_last()['message'] );
 		}
@@ -181,32 +181,32 @@ if ( ! empty( $DatabaseDumpPath )
 // Check for gd extension.
 if ( ! extension_loaded( 'gd' ) )
 {
-	$warning[] = 'PHP extensions: RosarioSIS relies on the gd extension (used to resize and compress images). Please install and activate it.';
+	$warning[] = 'PHP extensions: Decan relies on the gd extension (used to resize and compress images). Please install and activate it.';
 }
 
 // Check for zip extension.
 if ( ! extension_loaded( 'zip' ) )
 {
-	$warning[] = 'PHP extensions: RosarioSIS relies on the zip extension (used to upload add-ons). Please install and activate it.';
+	$warning[] = 'PHP extensions: Decan relies on the zip extension (used to upload add-ons). Please install and activate it.';
 }
 
 // Check for curl extension.
 if ( ! extension_loaded( 'curl' ) )
 {
-	$warning[] = 'PHP extensions: RosarioSIS relies on the curl extension (used to make external API calls). Please install and activate it.';
+	$warning[] = 'PHP extensions: Decan relies on the curl extension (used to make external API calls). Please install and activate it.';
 }
 
 // Check for intl extension.
 if ( ! extension_loaded( 'intl' ) )
 {
-	$warning[] = 'PHP extensions: RosarioSIS relies on the intl extension (used for internationalization). Please install and activate it.';
+	$warning[] = 'PHP extensions: Decan relies on the intl extension (used for internationalization). Please install and activate it.';
 }
 
 // Check for gettext extension (not on Windows).
 if ( ! extension_loaded( 'gettext' )
 	&& strtoupper( substr( PHP_OS, 0, 3 ) ) !== 'WIN' )
 {
-	$warning[] = 'PHP extensions: RosarioSIS relies on the gettext extension (used for translations). Please install and activate it.';
+	$warning[] = 'PHP extensions: Decan relies on the gettext extension (used for translations). Please install and activate it.';
 }
 
 // Check session.auto_start.
@@ -222,7 +222,7 @@ echo _ErrorMessage( $warning, 'warning' );
 
 if ( ! count( $error ) )
 {
-	echo '<h3>Your RosarioSIS installation is properly configured.</h3>';
+	echo '<h3>Your Decan installation is properly configured.</h3>';
 }
 
 

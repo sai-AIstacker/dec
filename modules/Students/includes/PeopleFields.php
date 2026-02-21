@@ -2,7 +2,7 @@
 /**
  * People Fields
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

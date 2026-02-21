@@ -5,7 +5,7 @@
  *
  * @see CatpchaInput() in Inputs.php
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage assets/js
  */
 

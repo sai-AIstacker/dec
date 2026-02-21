@@ -3,7 +3,7 @@
  *
  * @since 12.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 // Reload left menu so menu entries appear/disappear or new school/quarter appears

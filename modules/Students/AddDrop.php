@@ -2,7 +2,7 @@
 /**
  * Merge Add / Drop Report & Add / Drop Breakdown over Time
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Students
  */
 

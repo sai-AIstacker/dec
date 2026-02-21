@@ -9,7 +9,7 @@
  *
  * @since 12.5 CSP remove unsafe-inline Javascript
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

@@ -2,7 +2,7 @@
 /**
  * Daily Transactions program
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 
@@ -400,7 +400,7 @@ function _categorySelect( $category )
 		'',
 		$category_options,
 		_( 'All' ),
-		// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+		// @since Decan 12.5 CSP remove unsafe-inline Javascript
 		// Note: `this.value` inside link is automatically replaced
 		'class="onchange-ajax-link" data-link="' . $link . 'this.value" autocomplete="off"',
 		false

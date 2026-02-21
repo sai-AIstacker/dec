@@ -134,7 +134,7 @@ if ( UserStudentID() && ! $_REQUEST['modfunc'] )
 		'',
 		'<input type="button" value="' . AttrEscape( _( 'Cancel Sale' ) ) .
 			// Change form action's modfunc to cancel.
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			'" class="onclick-ajax-link" data-link="' . URLEscape( $cancel_url ) . '" />' .
 		SubmitButton( _( 'Complete Sale' ) )
 	);

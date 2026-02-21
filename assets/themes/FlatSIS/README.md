@@ -9,7 +9,7 @@ Author François Jacquet
 
 DESCRIPTION
 -----------
-This theme is now the default since RosarioSIS 8.0
+This theme is now the default since Decan 8.0
 
 CONTENT
 -------
@@ -24,7 +24,7 @@ The modules icons set is inside the `modules/` folder.
 
 ### Logo
 
-Rebrand RosarioSIS: replace the `logo.png` file with your own logo.
+Rebrand Decan: replace the `logo.png` file with your own logo.
 
 ### Font
 

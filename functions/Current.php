@@ -2,9 +2,9 @@
 /**
  * Current $_SESSION variables getters & setters functions
  *
- * See RosarioSIS Side menu to modify them
+ * See Decan Side menu to modify them
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

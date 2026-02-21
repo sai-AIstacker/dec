@@ -2,7 +2,7 @@
 /**
  * School Year functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

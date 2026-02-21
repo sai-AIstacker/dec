@@ -2,7 +2,7 @@
 /**
  * Lists / Listings
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  *
  * @since 4.0 Add List Before and After action hooks
@@ -892,7 +892,7 @@ function _ReindexResults( $array )
 {
 	// Raise deprecation notice.
 	trigger_error(
-		'_ReindexResults() function is deprecated since RosarioSIS 12.0. It will be removed in RosarioSIS 13.0.',
+		'_ReindexResults() function is deprecated since Decan 12.0. It will be removed in Decan 13.0.',
 		E_USER_DEPRECATED
 	);
 

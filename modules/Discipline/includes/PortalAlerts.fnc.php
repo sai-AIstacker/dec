@@ -2,7 +2,7 @@
 /**
  * Discipline module Portal Alerts
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules/Discipline
  */
 

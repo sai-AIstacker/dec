@@ -353,7 +353,7 @@ if ( ! $_REQUEST['modfunc'] )
 		// No .primary button class.
 		// @since 11.3 Allow non admin users & students to Generate Menu (no AllowEdit() required)
 		'<input type="button" value="' . AttrEscape( _( 'Generate Menu' ) ) .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			'" class="onclick-ajax-link" data-link="' . URLEscape( $print_url ) . '" />'
 	);
 

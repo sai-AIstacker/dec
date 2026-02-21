@@ -2,7 +2,7 @@
 /**
  * Dashboard
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

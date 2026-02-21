@@ -3,7 +3,7 @@
  *
  * @since 12.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 var tinymceSettings = {

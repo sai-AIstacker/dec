@@ -2,7 +2,7 @@
 /**
  * cURL class
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage classes
  */
 
@@ -87,7 +87,7 @@ class curl {
 	 */
 	public function resetopt(){
 		$this->options = array();
-		$this->options['CURLOPT_USERAGENT']         = 'RosarioSIS/1.0; +https://www.rosariosis.org/';
+		$this->options['CURLOPT_USERAGENT']         = 'Decan/1.0; +https://www.rosariosis.org/';
 		// True to include the header in the output
 		$this->options['CURLOPT_HEADER']            = 0;
 		// True to Exclude the body from the output
@@ -233,7 +233,7 @@ class curl {
 		// set headers
 		if (empty($this->header)){
 			$this->setHeader(array(
-				'User-Agent: RosarioSIS/1.0; +https://www.rosariosis.org/',
+				'User-Agent: Decan/1.0; +https://www.rosariosis.org/',
 				'Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7',
 				'Connection: keep-alive'
 				));

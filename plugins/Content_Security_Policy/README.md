@@ -3,13 +3,13 @@ Content Security Policy plugin
 
 ![screenshot](plugins/Content_Security_Policy/screenshot.webp)
 
-This plugin is part of [RosarioSIS](https://www.rosariosis.org)
+This plugin is part of [Decan](https://www.rosariosis.org)
 
 Author François Jacquet
 
 ## Description
 
-Core plugin to help with the Content Security Policy in RosarioSIS. The CSP main purpose is to prevent XSS (Cross Site Scripting) attacks.
+Core plugin to help with the Content Security Policy in Decan. The CSP main purpose is to prevent XSS (Cross Site Scripting) attacks.
 This plugin reports violations to the CSP. You can add domains to the CSP (ie. allow requests to external domains).
 
 Note: if you are experiencing issues with an add-on, please contact its developer.
@@ -20,8 +20,8 @@ Warning: allow external domains as a last resort because this lowers system secu
 
 Warning 2: inline Javascript cannot be (re)allowed through means of this plugin. Please check the "Developers" section below for instructions.
 
-The Content Security Policy is rolled out in RosarioSIS in 3 phases:
-1. Prepare: make RosarioSIS and the add-ons' code compatible (version 12.5)
+The Content Security Policy is rolled out in Decan in 3 phases:
+1. Prepare: make Decan and the add-ons' code compatible (version 12.5)
 2. Report only: report violations to the CSP through this same plugin (version 12.6)
 3. Enforce: report and block resources in violation to the CSP (version 13.0)
 

@@ -14,7 +14,7 @@
  *
  * @link https://github.com/symfony/polyfill/tree/master/src/Mbstring
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

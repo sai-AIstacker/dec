@@ -1,10 +1,10 @@
 <?php
 /**
- * The base configurations of RosarioSIS
+ * The base configurations of Decan
  *
  * You can find more information in the INSTALL.md file
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

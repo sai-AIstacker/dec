@@ -2,7 +2,7 @@
 /**
  * Theme functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

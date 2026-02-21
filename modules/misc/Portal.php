@@ -1054,8 +1054,8 @@ switch ( User( 'PROFILE' ) )
 
 if ( User( 'PROFILE' ) === 'admin' )
 {
-	// @since 12.2 Security: move RosarioSIS version from Login screen to Portal
-	echo '<p class="size-1">' . sprintf( _( '%s version %s' ), 'RosarioSIS', ROSARIO_VERSION ) . '</p>';
+	// @since 12.2 Security: move Decan version from Login screen to Portal
+	echo '<p class="size-1">' . sprintf( _( '%s version %s' ), 'Decan', DECAN_VERSION ) . '</p>';
 }
 
 /**
@@ -1069,7 +1069,7 @@ function PHPCheck()
 
 	if ( version_compare( PHP_VERSION, '5.5.9' ) == -1 )
 	{
-		$ret[] = 'RosarioSIS requires PHP 5.5.9 to run, your version is : ' . PHP_VERSION;
+		$ret[] = 'Decan requires PHP 5.5.9 to run, your version is : ' . PHP_VERSION;
 	}
 
 	if ( mb_strpos( ini_get( 'disable_functions' ), 'passthru' ) !== false )

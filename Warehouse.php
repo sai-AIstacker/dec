@@ -11,15 +11,15 @@
  * Sanitize $_REQUEST array
  * Internationalization
  * Modules & Plugins
- * Update RosarioSIS
+ * Update Decan
  * Warehouse() function (Output HTML header (including Bottom & Side menus), or footer)
  * isAJAX() function (AJAX request detection)
  * ETagCache() function (ETag cache system)
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
-define( 'ROSARIO_VERSION', '12.7.2' );
+define( 'DECAN_VERSION', '1.0' );
 
 /**
  * Include config.inc.php file.
@@ -223,7 +223,7 @@ register_shutdown_function( 'ErrorSendEmail' );
 /**
  * Start Session
  */
-session_name( 'RosarioSIS' );
+session_name( 'Decan' );
 
 // @link http://php.net/manual/en/session.security.php
 $cookie_path = dirname( $_SERVER['SCRIPT_NAME'] ) === DIRECTORY_SEPARATOR ?
@@ -505,16 +505,16 @@ else
 }
 
 /**
- * Update RosarioSIS
+ * Update Decan
  * Automatically runs after manual files update
  * To apply eventual incremental DB updates
  *
  * @see ProgramFunctions/Update.fnc.php
  * @since 2.9
  */
-// Check if version in DB < ROSARIO_VERSION.
+// Check if version in DB < DECAN_VERSION.
 
-if ( version_compare( Config( 'VERSION' ), ROSARIO_VERSION, '<' ) )
+if ( version_compare( Config( 'VERSION' ), DECAN_VERSION, '<' ) )
 {
 	require_once 'ProgramFunctions/Update.fnc.php';
 
@@ -525,7 +525,7 @@ if ( version_compare( Config( 'VERSION' ), ROSARIO_VERSION, '<' ) )
 /**
  * Modules
  *
- * Core modules (packaged with RosarioSIS): cannot be deleted.
+ * Core modules (packaged with Decan): cannot be deleted.
  */
 $RosarioCoreModules = [
 	'School_Setup',
@@ -552,7 +552,7 @@ _LoadAddons( $non_core_modules, 'modules/' );
 /**
  * Plugins
  *
- * Core plugins (packaged with RosarioSIS): cannot be deleted.
+ * Core plugins (packaged with Decan): cannot be deleted.
  */
 $RosarioCorePlugins = [
 	'Content_Security_Policy',
@@ -692,7 +692,7 @@ function Warehouse( $mode )
 
 			$stylesheet_css = 'assets/themes/' . Preferences( 'THEME' ) . '/stylesheet.css';
 
-			// @since 12.3 Cache killer: use file last modified time hash instead of RosarioSIS version
+			// @since 12.3 Cache killer: use file last modified time hash instead of Decan version
 			$stylesheet_css_hash = hash( 'adler32', filemtime( $stylesheet_css ) );
 			?>
 <!doctype html>
@@ -701,8 +701,8 @@ function Warehouse( $mode )
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title><?php echo ParseMLField( Config( 'TITLE' ) ); ?></title>
-	<link rel="icon" href="favicon.ico" sizes="32x32">
-	<link rel="icon" href="apple-touch-icon.png" sizes="128x128">
+	<link rel="icon" href="favicon.ico?<?php echo hash( 'adler32', filemtime( 'favicon.ico' ) ); ?>" sizes="32x32">
+	<link rel="icon" href="apple-touch-icon.png?<?php echo hash( 'adler32', filemtime( 'apple-touch-icon.png' ) ); ?>" sizes="128x128">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
 	<link rel="stylesheet" href="<?php echo $stylesheet_css; ?>?<?php echo $stylesheet_css_hash; ?>">
@@ -839,7 +839,7 @@ function WarehouseHeaderJS()
 {
 	$lang_2_chars = mb_substr( $_SESSION['locale'], 0, 2 );
 
-	// @since 12.3 Cache killer: use file last modified time hash instead of RosarioSIS version
+	// @since 12.3 Cache killer: use file last modified time hash instead of Decan version
 	$plugins_min_js_hash = hash( 'adler32', filemtime( 'assets/js/plugins.min.js' ) );
 	?>
 	<script src="assets/js/jquery.js?v=3.7.1"></script>
@@ -871,7 +871,7 @@ function isPopup( $modname = '', $modfunc = '' )
 {
 	// Raise deprecation notice.
 	trigger_error(
-		'isPopup() function is deprecated since RosarioSIS 12.0. Use colorBox instead of popup window.',
+		'isPopup() function is deprecated since Decan 12.0. Use colorBox instead of popup window.',
 		E_USER_DEPRECATED
 	);
 

@@ -2,7 +2,7 @@
 /**
  * Linkify function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

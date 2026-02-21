@@ -6,7 +6,7 @@
  *          // echo HTML
  *          PDFStop( $handle );
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

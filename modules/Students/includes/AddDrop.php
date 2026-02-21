@@ -2,7 +2,7 @@
 /**
  * Add / Drop Report
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Students
  */
 

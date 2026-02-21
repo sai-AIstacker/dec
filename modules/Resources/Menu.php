@@ -6,7 +6,7 @@
  *
  * @see  Menu.php in root folder
  * 
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

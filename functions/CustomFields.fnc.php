@@ -2,7 +2,7 @@
 /**
  * Custom (staff) Fields function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

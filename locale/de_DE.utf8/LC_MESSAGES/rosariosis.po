@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: RosarioSIS\n"
+"Project-Id-Version: Decan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-19 15:46+0100\n"
 "PO-Revision-Date: \n"
@@ -9109,11 +9109,11 @@ msgstr ""
 #~ msgid "Months"
 #~ msgstr "Monate"
 
-#~ msgid "RosarioSIS Login"
-#~ msgstr "Anmelden bei RosarioSIS"
+#~ msgid "Decan Login"
+#~ msgstr "Anmelden bei Decan"
 
-#~ msgid "RosarioSIS ID"
-#~ msgstr "RosarioSIS ID - Nummer"
+#~ msgid "Decan ID"
+#~ msgstr "Decan ID - Nummer"
 
 #~ msgid "Gradescale"
 #~ msgstr "Notenskala"

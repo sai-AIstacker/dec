@@ -4,12 +4,12 @@
 # Fracois Jacquet, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: RosarioSIS\n"
+"Project-Id-Version: Decan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 18:48+0100\n"
 "PO-Revision-Date: 2025-11-19 18:51+0100\n"
 "Last-Translator: François Jacquet <info@rosariosis.org>\n"
-"Language-Team: RosarioSIS\n"
+"Language-Team: Decan\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1103,15 +1103,15 @@ msgid "%Y Years %m Months %d Days"
 msgstr "%Y Años %m Meses %d Días"
 
 #: ProgramFunctions/StudentsUsersInfo.fnc.php:662
-#: classes/RosarioSIS/Widget/MedicalDate.php:49
-#: classes/RosarioSIS/Widget/MedicalDate.php:102 classes/core/Widget.php:2264
+#: classes/Decan/Widget/MedicalDate.php:49
+#: classes/Decan/Widget/MedicalDate.php:102 classes/core/Widget.php:2264
 #: classes/core/Widget.php:2317
 msgid "Immunization"
 msgstr "Vacuna"
 
 #: ProgramFunctions/StudentsUsersInfo.fnc.php:662
-#: classes/RosarioSIS/Widget/MedicalDate.php:49
-#: classes/RosarioSIS/Widget/MedicalDate.php:106 classes/core/Widget.php:2264
+#: classes/Decan/Widget/MedicalDate.php:49
+#: classes/Decan/Widget/MedicalDate.php:106 classes/core/Widget.php:2264
 #: classes/core/Widget.php:2321
 msgid "Physical"
 msgstr "Chequeo"
@@ -1140,10 +1140,10 @@ msgid "Substitutions"
 msgstr "Substituciones"
 
 #: ProgramFunctions/Substitutions.fnc.php:264
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:34
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:46
-#: classes/RosarioSIS/Widget/Rolled.php:35
-#: classes/RosarioSIS/Widget/Rolled.php:48 classes/core/Widget.php:1944
+#: classes/Decan/StaffWidget/FsaExists.php:34
+#: classes/Decan/StaffWidget/FsaExists.php:46
+#: classes/Decan/Widget/Rolled.php:35
+#: classes/Decan/Widget/Rolled.php:48 classes/core/Widget.php:1944
 #: classes/core/Widget.php:1957 functions/GetStuList.fnc.php:1084
 #: functions/Inputs.php:695 functions/Inputs.php:702
 #: functions/Search.fnc.php:650 functions/Search.fnc.php:782
@@ -1166,10 +1166,10 @@ msgid "Yes"
 msgstr "Sí"
 
 #: ProgramFunctions/Substitutions.fnc.php:264
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:34
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:48
-#: classes/RosarioSIS/Widget/Rolled.php:35
-#: classes/RosarioSIS/Widget/Rolled.php:51 classes/core/Widget.php:1944
+#: classes/Decan/StaffWidget/FsaExists.php:34
+#: classes/Decan/StaffWidget/FsaExists.php:48
+#: classes/Decan/Widget/Rolled.php:35
+#: classes/Decan/Widget/Rolled.php:51 classes/core/Widget.php:1944
 #: classes/core/Widget.php:1960 functions/GetStuList.fnc.php:1084
 #: functions/Inputs.php:696 functions/Inputs.php:703
 #: functions/Search.fnc.php:652 functions/Search.fnc.php:793
@@ -1189,11 +1189,11 @@ msgstr "No"
 
 #: ProgramFunctions/Substitutions.fnc.php:272
 #: ProgramFunctions/Substitutions.fnc.php:287
-#: classes/RosarioSIS/Widget/Calendar.php:84
-#: classes/RosarioSIS/Widget/DisciplineFields.php:246
-#: classes/RosarioSIS/Widget/NextYear.php:27
-#: classes/RosarioSIS/Widget/NextYear.php:59
-#: classes/RosarioSIS/Widget/Rolled.php:45 classes/core/Widget.php:1644
+#: classes/Decan/Widget/Calendar.php:84
+#: classes/Decan/Widget/DisciplineFields.php:246
+#: classes/Decan/Widget/NextYear.php:27
+#: classes/Decan/Widget/NextYear.php:59
+#: classes/Decan/Widget/Rolled.php:45 classes/core/Widget.php:1644
 #: classes/core/Widget.php:1680 classes/core/Widget.php:1712
 #: classes/core/Widget.php:1815 classes/core/Widget.php:1954
 #: functions/Date.php:342 functions/Date.php:345 functions/Date.php:384
@@ -1246,8 +1246,8 @@ msgid "N/A"
 msgstr "N/A"
 
 #: ProgramFunctions/miscExport.fnc.php:35
-#: classes/RosarioSIS/Widget/NextYear.php:30
-#: classes/RosarioSIS/Widget/NextYear.php:62 classes/core/Widget.php:1683
+#: classes/Decan/Widget/NextYear.php:30
+#: classes/Decan/Widget/NextYear.php:62 classes/core/Widget.php:1683
 #: classes/core/Widget.php:1715 modules/Students/AssignOtherInfo.php:390
 #: modules/Students/includes/Enrollment.inc.php:54
 #: plugins/Moodle/includes/ImportUsers.fnc.php:262
@@ -1255,8 +1255,8 @@ msgid "Retain"
 msgstr "Mantener"
 
 #: ProgramFunctions/miscExport.fnc.php:39
-#: classes/RosarioSIS/Widget/NextYear.php:31
-#: classes/RosarioSIS/Widget/NextYear.php:63 classes/core/Widget.php:1684
+#: classes/Decan/Widget/NextYear.php:31
+#: classes/Decan/Widget/NextYear.php:63 classes/core/Widget.php:1684
 #: classes/core/Widget.php:1716 modules/Students/AssignOtherInfo.php:391
 #: modules/Students/includes/Enrollment.inc.php:55
 #: plugins/Moodle/includes/ImportUsers.fnc.php:263
@@ -1355,15 +1355,15 @@ msgstr "Quitar el usuario actual"
 msgid "User Info"
 msgstr "Información del Usuario"
 
-#: classes/RosarioSIS/StaffWidget/FsaBalance.php:39
-#: classes/RosarioSIS/Widget/FsaBalance.php:41 classes/core/Widget.php:1997
+#: classes/Decan/StaffWidget/FsaBalance.php:39
+#: classes/Decan/Widget/FsaBalance.php:41 classes/core/Widget.php:1997
 #: modules/Users/Preferences.php:747 modules/Users/Preferences.php:881
 msgid "Food Service Balance"
 msgstr "Saldo del Servicio de Comida"
 
-#: classes/RosarioSIS/StaffWidget/FsaBalance.php:49
-#: classes/RosarioSIS/Widget/Balance.php:61
-#: classes/RosarioSIS/Widget/FsaBalance.php:51 classes/core/Widget.php:1218
+#: classes/Decan/StaffWidget/FsaBalance.php:49
+#: classes/Decan/Widget/Balance.php:61
+#: classes/Decan/Widget/FsaBalance.php:51 classes/core/Widget.php:1218
 #: classes/core/Widget.php:2007 modules/Accounting/Expenses.php:212
 #: modules/Accounting/Incomes.php:212 modules/Accounting/Salaries.php:197
 #: modules/Accounting/StaffBalances.php:18
@@ -1407,14 +1407,14 @@ msgstr "Saldo del Servicio de Comida"
 msgid "Balance"
 msgstr "Saldo"
 
-#: classes/RosarioSIS/StaffWidget/FsaBarcode.php:37
-#: classes/RosarioSIS/Widget/FsaBarcode.php:37 classes/core/Widget.php:2166
+#: classes/Decan/StaffWidget/FsaBarcode.php:37
+#: classes/Decan/Widget/FsaBarcode.php:37 classes/core/Widget.php:2166
 #: modules/Users/Preferences.php:750 modules/Users/Preferences.php:883
 msgid "Food Service Barcode"
 msgstr "Código de Barras del Servicio de Comida"
 
-#: classes/RosarioSIS/StaffWidget/FsaBarcode.php:46
-#: classes/RosarioSIS/Widget/FsaBarcode.php:46 classes/core/Widget.php:2175
+#: classes/Decan/StaffWidget/FsaBarcode.php:46
+#: classes/Decan/Widget/FsaBarcode.php:46 classes/core/Widget.php:2175
 #: modules/Food_Service/Student.inc.php:122
 #: modules/Food_Service/Students/Accounts.php:279
 #: modules/Food_Service/User.inc.php:73
@@ -1423,16 +1423,16 @@ msgstr "Código de Barras del Servicio de Comida"
 msgid "Barcode"
 msgstr "Código de Barras"
 
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:33
+#: classes/Decan/StaffWidget/FsaExists.php:33
 msgid "Food Service Account Exists"
 msgstr "Cuenta del Servicio de Comida ya Existe"
 
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:42
+#: classes/Decan/StaffWidget/FsaExists.php:42
 msgid "Has Account"
 msgstr "Tiene Cuenta"
 
-#: classes/RosarioSIS/StaffWidget/FsaExists.php:44
-#: classes/RosarioSIS/StaffWidget/Permissions.php:42
+#: classes/Decan/StaffWidget/FsaExists.php:44
+#: classes/Decan/StaffWidget/Permissions.php:42
 #: functions/Search.fnc.php:648
 #: modules/Accounting/includes/DailyTransactions.php:402
 #: modules/Attendance/Administration.php:691
@@ -1446,23 +1446,23 @@ msgstr "Tiene Cuenta"
 msgid "All"
 msgstr "Todo"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:42
+#: classes/Decan/StaffWidget/FsaStatus.php:42
 #: modules/Users/Preferences.php:749 modules/Users/Preferences.php:882
 msgid "Food Service Status"
 msgstr "Estado del Servicio de Comida"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:51
-#: classes/RosarioSIS/Widget/FsaStatus.php:39
-#: classes/RosarioSIS/Widget/FsaStatus.php:48 classes/core/Widget.php:2108
+#: classes/Decan/StaffWidget/FsaStatus.php:51
+#: classes/Decan/Widget/FsaStatus.php:39
+#: classes/Decan/Widget/FsaStatus.php:48 classes/core/Widget.php:2108
 #: classes/core/Widget.php:2117
 msgid "Account Status"
 msgstr "Estado de Cuenta"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:53
-#: classes/RosarioSIS/Widget/Activity.php:58
-#: classes/RosarioSIS/Widget/FsaDiscount.php:50
-#: classes/RosarioSIS/Widget/FsaStatus.php:50
-#: classes/RosarioSIS/Widget/Reporter.php:66 classes/core/Widget.php:1107
+#: classes/Decan/StaffWidget/FsaStatus.php:53
+#: classes/Decan/Widget/Activity.php:58
+#: classes/Decan/Widget/FsaDiscount.php:50
+#: classes/Decan/Widget/FsaStatus.php:50
+#: classes/Decan/Widget/Reporter.php:66 classes/core/Widget.php:1107
 #: classes/core/Widget.php:1282 classes/core/Widget.php:2070
 #: classes/core/Widget.php:2119 functions/Search.fnc.php:203
 #: functions/Search.fnc.php:284 modules/Food_Service/Statements.php:79
@@ -1474,8 +1474,8 @@ msgstr "Estado de Cuenta"
 msgid "Not Specified"
 msgstr "No Especificado"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:54
-#: classes/RosarioSIS/Widget/FsaStatus.php:51 classes/core/Widget.php:2120
+#: classes/Decan/StaffWidget/FsaStatus.php:54
+#: classes/Decan/Widget/FsaStatus.php:51 classes/core/Widget.php:2120
 #: functions/GetStuList.fnc.php:445 functions/GetStuList.fnc.php:518
 #: modules/Custom/AttendanceSummary.php:44
 #: modules/Food_Service/Student.inc.php:106
@@ -1492,8 +1492,8 @@ msgstr "No Especificado"
 msgid "Active"
 msgstr "Activo"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:55
-#: classes/RosarioSIS/Widget/FsaStatus.php:52 classes/core/Widget.php:2121
+#: classes/Decan/StaffWidget/FsaStatus.php:55
+#: classes/Decan/Widget/FsaStatus.php:52 classes/core/Widget.php:2121
 #: functions/GetStuList.fnc.php:447 functions/GetStuList.fnc.php:520
 #: modules/Custom/AttendanceSummary.php:45
 #: modules/Food_Service/Student.inc.php:99
@@ -1504,8 +1504,8 @@ msgstr "Activo"
 msgid "Inactive"
 msgstr "Inactivo"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:56
-#: classes/RosarioSIS/Widget/FsaStatus.php:53 classes/core/Widget.php:2122
+#: classes/Decan/StaffWidget/FsaStatus.php:56
+#: classes/Decan/Widget/FsaStatus.php:53 classes/core/Widget.php:2122
 #: modules/Food_Service/Student.inc.php:99
 #: modules/Food_Service/Students/Accounts.php:256
 #: modules/Food_Service/User.inc.php:71
@@ -1513,8 +1513,8 @@ msgstr "Inactivo"
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: classes/RosarioSIS/StaffWidget/FsaStatus.php:57
-#: classes/RosarioSIS/Widget/FsaStatus.php:54 classes/core/Widget.php:2123
+#: classes/Decan/StaffWidget/FsaStatus.php:57
+#: classes/Decan/Widget/FsaStatus.php:54 classes/core/Widget.php:2123
 #: modules/Food_Service/Student.inc.php:99
 #: modules/Food_Service/Students/Accounts.php:256
 #: modules/Food_Service/User.inc.php:71
@@ -1522,50 +1522,50 @@ msgstr "Desactivado"
 msgid "Closed"
 msgstr "Cerrado"
 
-#: classes/RosarioSIS/StaffWidget/Permissions.php:31
-#: classes/RosarioSIS/StaffWidget/Permissions.php:40
+#: classes/Decan/StaffWidget/Permissions.php:31
+#: classes/Decan/StaffWidget/Permissions.php:40
 #: modules/Users/Exceptions.php:171 modules/Users/Preferences.php:875
 #: modules/Users/Profiles.php:328
 #: modules/Users/includes/General_Info.inc.php:290
 msgid "Permissions"
 msgstr "Permisos"
 
-#: classes/RosarioSIS/StaffWidget/Permissions.php:32
-#: classes/RosarioSIS/StaffWidget/Permissions.php:44
+#: classes/Decan/StaffWidget/Permissions.php:32
+#: classes/Decan/StaffWidget/Permissions.php:44
 #: functions/GetStaffList.fnc.php:379 functions/Search.fnc.php:262
 #: modules/Food_Service/Reminders.php:196 modules/Users/Search.inc.php:231
 #: plugins/Moodle/config.inc.php:159
 msgid "Profile"
 msgstr "Perfil"
 
-#: classes/RosarioSIS/StaffWidget/Permissions.php:32
-#: classes/RosarioSIS/StaffWidget/Permissions.php:46
+#: classes/Decan/StaffWidget/Permissions.php:32
+#: classes/Decan/StaffWidget/Permissions.php:46
 #: modules/Users/includes/General_Info.inc.php:274
 msgid "Custom"
 msgstr "Custom"
 
-#: classes/RosarioSIS/StaffWidget/StaffBalance.php:51
-#: classes/RosarioSIS/StaffWidget/StaffBalance.php:61
+#: classes/Decan/StaffWidget/StaffBalance.php:51
+#: classes/Decan/StaffWidget/StaffBalance.php:61
 #: modules/Users/Preferences.php:889
 msgid "Staff Payroll Balance"
 msgstr "Saldo de la Nómina del Personal"
 
-#: classes/RosarioSIS/StaffWidget/StaffBalance.php:52
-#: classes/RosarioSIS/StaffWidget/StaffBalance.php:62
-#: classes/RosarioSIS/Widget/Absences.php:69
-#: classes/RosarioSIS/Widget/Absences.php:92
-#: classes/RosarioSIS/Widget/Balance.php:51
-#: classes/RosarioSIS/Widget/Balance.php:61
-#: classes/RosarioSIS/Widget/ClassRank.php:54
-#: classes/RosarioSIS/Widget/ClassRank.php:107
-#: classes/RosarioSIS/Widget/CpAbsences.php:91
-#: classes/RosarioSIS/Widget/CpAbsences.php:118
-#: classes/RosarioSIS/Widget/DisciplineFields.php:144
-#: classes/RosarioSIS/Widget/DisciplineFields.php:230
-#: classes/RosarioSIS/Widget/Enrolled.php:56
-#: classes/RosarioSIS/Widget/Gpa.php:63 classes/RosarioSIS/Widget/Gpa.php:102
-#: classes/RosarioSIS/Widget/IncidentDate.php:70
-#: classes/RosarioSIS/Widget/MedicalDate.php:61 classes/core/Widget.php:354
+#: classes/Decan/StaffWidget/StaffBalance.php:52
+#: classes/Decan/StaffWidget/StaffBalance.php:62
+#: classes/Decan/Widget/Absences.php:69
+#: classes/Decan/Widget/Absences.php:92
+#: classes/Decan/Widget/Balance.php:51
+#: classes/Decan/Widget/Balance.php:61
+#: classes/Decan/Widget/ClassRank.php:54
+#: classes/Decan/Widget/ClassRank.php:107
+#: classes/Decan/Widget/CpAbsences.php:91
+#: classes/Decan/Widget/CpAbsences.php:118
+#: classes/Decan/Widget/DisciplineFields.php:144
+#: classes/Decan/Widget/DisciplineFields.php:230
+#: classes/Decan/Widget/Enrolled.php:56
+#: classes/Decan/Widget/Gpa.php:63 classes/Decan/Widget/Gpa.php:102
+#: classes/Decan/Widget/IncidentDate.php:70
+#: classes/Decan/Widget/MedicalDate.php:61 classes/core/Widget.php:354
 #: classes/core/Widget.php:377 classes/core/Widget.php:466
 #: classes/core/Widget.php:493 classes/core/Widget.php:554
 #: classes/core/Widget.php:593 classes/core/Widget.php:645
@@ -1576,7 +1576,7 @@ msgstr "Saldo de la Nómina del Personal"
 msgid "Between"
 msgstr "Entre"
 
-#: classes/RosarioSIS/StaffWidgets.php:46 modules/Food_Service/Accounts.php:23
+#: classes/Decan/StaffWidgets.php:46 modules/Food_Service/Accounts.php:23
 #: modules/Food_Service/ActivityReport.php:29
 #: modules/Food_Service/BalanceReport.php:44
 #: modules/Food_Service/Reminders.php:25 modules/Food_Service/ServeMenus.php:52
@@ -1588,7 +1588,7 @@ msgstr "Entre"
 msgid "Users"
 msgstr "Usuarios"
 
-#: classes/RosarioSIS/StaffWidgets.php:59 classes/RosarioSIS/Widgets.php:327
+#: classes/Decan/StaffWidgets.php:59 classes/Decan/Widgets.php:327
 #: classes/core/Widgets.php:319 modules/Food_Service/Menu.php:14
 #: modules/Food_Service/Menu.php:36 modules/Food_Service/Menu.php:46
 #: modules/School_Setup/Configuration.php:252 modules/misc/Export.php:400
@@ -1597,54 +1597,54 @@ msgstr "Usuarios"
 msgid "Food Service"
 msgstr "Servicio de Comida"
 
-#: classes/RosarioSIS/StaffWidgets.php:74 modules/Accounting/Categories.php:49
+#: classes/Decan/StaffWidgets.php:74 modules/Accounting/Categories.php:49
 #: modules/Accounting/Menu.php:14 modules/Accounting/Menu.php:30
 msgid "Accounting"
 msgstr "Contabilidad"
 
-#: classes/RosarioSIS/Widget/Absences.php:54
-#: classes/RosarioSIS/Widget/Absences.php:80
-#: classes/RosarioSIS/Widget/CpAbsences.php:71
-#: classes/RosarioSIS/Widget/CpAbsences.php:106 classes/core/Widget.php:339
+#: classes/Decan/Widget/Absences.php:54
+#: classes/Decan/Widget/Absences.php:80
+#: classes/Decan/Widget/CpAbsences.php:71
+#: classes/Decan/Widget/CpAbsences.php:106 classes/core/Widget.php:339
 #: classes/core/Widget.php:365 classes/core/Widget.php:446
 #: classes/core/Widget.php:481
 msgid "this school year to date"
 msgstr "este año escolar hasta la fecha"
 
-#: classes/RosarioSIS/Widget/Absences.php:58
-#: classes/RosarioSIS/Widget/Absences.php:84
-#: classes/RosarioSIS/Widget/CpAbsences.php:77
-#: classes/RosarioSIS/Widget/CpAbsences.php:110 classes/core/Widget.php:343
+#: classes/Decan/Widget/Absences.php:58
+#: classes/Decan/Widget/Absences.php:84
+#: classes/Decan/Widget/CpAbsences.php:77
+#: classes/Decan/Widget/CpAbsences.php:110 classes/core/Widget.php:343
 #: classes/core/Widget.php:369 classes/core/Widget.php:452
 #: classes/core/Widget.php:485
 msgid "this semester to date"
 msgstr "este semestre hasta la fecha"
 
-#: classes/RosarioSIS/Widget/Absences.php:62
-#: classes/RosarioSIS/Widget/Absences.php:88
-#: classes/RosarioSIS/Widget/CpAbsences.php:83
-#: classes/RosarioSIS/Widget/CpAbsences.php:114 classes/core/Widget.php:347
+#: classes/Decan/Widget/Absences.php:62
+#: classes/Decan/Widget/Absences.php:88
+#: classes/Decan/Widget/CpAbsences.php:83
+#: classes/Decan/Widget/CpAbsences.php:114 classes/core/Widget.php:347
 #: classes/core/Widget.php:373 classes/core/Widget.php:458
 #: classes/core/Widget.php:489
 msgid "this marking period to date"
 msgstr "este período de calificaciones hasta la fecha"
 
-#: classes/RosarioSIS/Widget/Absences.php:68
-#: classes/RosarioSIS/Widget/Absences.php:78 classes/core/Widget.php:353
+#: classes/Decan/Widget/Absences.php:68
+#: classes/Decan/Widget/Absences.php:78 classes/core/Widget.php:353
 #: classes/core/Widget.php:363
 #: modules/Attendance/includes/StudentSummary.php:158
 #: modules/Users/Preferences.php:727
 msgid "Days Absent"
 msgstr "Días de Ausencia"
 
-#: classes/RosarioSIS/Widget/Absences.php:82
-#: classes/RosarioSIS/Widget/CpAbsences.php:108 classes/core/Widget.php:367
+#: classes/Decan/Widget/Absences.php:82
+#: classes/Decan/Widget/CpAbsences.php:108 classes/core/Widget.php:367
 #: classes/core/Widget.php:483
 msgid "YTD"
 msgstr "Año a la fecha"
 
-#: classes/RosarioSIS/Widget/Activity.php:38
-#: classes/RosarioSIS/Widget/Activity.php:68 classes/core/Widget.php:1087
+#: classes/Decan/Widget/Activity.php:38
+#: classes/Decan/Widget/Activity.php:68 classes/core/Widget.php:1087
 #: classes/core/Widget.php:1117 modules/Eligibility/Activities.php:43
 #: modules/Eligibility/Activities.php:93 modules/Eligibility/AddActivity.php:76
 #: modules/Eligibility/Student.php:46 modules/Eligibility/Student.php:158
@@ -1654,19 +1654,19 @@ msgid_plural "Activities"
 msgstr[0] "Actividad"
 msgstr[1] "Actividades"
 
-#: classes/RosarioSIS/Widget/Balance.php:51 classes/core/Widget.php:1208
+#: classes/Decan/Widget/Balance.php:51 classes/core/Widget.php:1208
 #: modules/Users/Preferences.php:765
 msgid "Student Billing Balance"
 msgstr "Saldo de Cobros del Estudiante"
 
-#: classes/RosarioSIS/Widget/Calendar.php:34 classes/core/Widget.php:1765
+#: classes/Decan/Widget/Calendar.php:34 classes/core/Widget.php:1765
 msgid "Any Value"
 msgstr "Cualquier Valor"
 
-#: classes/RosarioSIS/Widget/Calendar.php:34
-#: classes/RosarioSIS/Widget/Calendar.php:85
-#: classes/RosarioSIS/Widget/NextYear.php:28
-#: classes/RosarioSIS/Widget/NextYear.php:60 classes/core/Widget.php:1681
+#: classes/Decan/Widget/Calendar.php:34
+#: classes/Decan/Widget/Calendar.php:85
+#: classes/Decan/Widget/NextYear.php:28
+#: classes/Decan/Widget/NextYear.php:60 classes/core/Widget.php:1681
 #: classes/core/Widget.php:1713 classes/core/Widget.php:1765
 #: classes/core/Widget.php:1816 functions/Search.fnc.php:516
 #: functions/Search.fnc.php:552 functions/Search.fnc.php:621
@@ -1677,12 +1677,12 @@ msgstr "Cualquier Valor"
 msgid "No Value"
 msgstr "No Valor"
 
-#: classes/RosarioSIS/Widget/Calendar.php:60
-#: classes/RosarioSIS/Widget/Calendar.php:81
-#: classes/RosarioSIS/Widget/Course.php:51
-#: classes/RosarioSIS/Widget/Course.php:72
-#: classes/RosarioSIS/Widget/Course.php:94
-#: classes/RosarioSIS/Widget/Course.php:173 classes/core/Widget.php:86
+#: classes/Decan/Widget/Calendar.php:60
+#: classes/Decan/Widget/Calendar.php:81
+#: classes/Decan/Widget/Course.php:51
+#: classes/Decan/Widget/Course.php:72
+#: classes/Decan/Widget/Course.php:94
+#: classes/Decan/Widget/Course.php:173 classes/core/Widget.php:86
 #: classes/core/Widget.php:107 classes/core/Widget.php:129
 #: classes/core/Widget.php:208 classes/core/Widget.php:1791
 #: classes/core/Widget.php:1812 functions/Search.fnc.php:168
@@ -1692,8 +1692,8 @@ msgstr "No Valor"
 msgid "Not"
 msgstr "No"
 
-#: classes/RosarioSIS/Widget/Calendar.php:65
-#: classes/RosarioSIS/Widget/Calendar.php:79 classes/core/Widget.php:1796
+#: classes/Decan/Widget/Calendar.php:65
+#: classes/Decan/Widget/Calendar.php:79 classes/core/Widget.php:1796
 #: classes/core/Widget.php:1810 modules/Scheduling/includes/Courses.fnc.php:189
 #: modules/School_Setup/Calendar.php:399 modules/School_Setup/Calendar.php:955
 #: modules/Students/AssignOtherInfo.php:417
@@ -1703,8 +1703,8 @@ msgstr "No"
 msgid "Calendar"
 msgstr "Calendario"
 
-#: classes/RosarioSIS/Widget/ClassRank.php:54
-#: classes/RosarioSIS/Widget/ClassRank.php:63 classes/core/Widget.php:645
+#: classes/Decan/Widget/ClassRank.php:54
+#: classes/Decan/Widget/ClassRank.php:63 classes/core/Widget.php:645
 #: classes/core/Widget.php:654 modules/Grades/GPARankList.php:66
 #: modules/Grades/StudentGrades.php:85 modules/Grades/StudentGrades.php:449
 #: modules/Grades/includes/Grades.fnc.php:101
@@ -1716,8 +1716,8 @@ msgstr "Calendario"
 msgid "Class Rank"
 msgstr "Puesto en la Clase"
 
-#: classes/RosarioSIS/Widget/Course.php:50
-#: classes/RosarioSIS/Widget/Course.php:177 classes/core/Widget.php:85
+#: classes/Decan/Widget/Course.php:50
+#: classes/Decan/Widget/Course.php:177 classes/core/Widget.php:85
 #: classes/core/Widget.php:212 modules/Grades/HonorRoll.php:76
 #: modules/Grades/MassCreateAssignments.php:555
 #: modules/Grades/ReportCardComments.php:161 modules/Scheduling/Courses.php:173
@@ -1740,10 +1740,10 @@ msgid_plural "Subjects"
 msgstr[0] "Materia"
 msgstr[1] "Materias"
 
-#: classes/RosarioSIS/Widget/Course.php:71
-#: classes/RosarioSIS/Widget/Course.php:120
-#: classes/RosarioSIS/Widget/Course.php:169
-#: classes/RosarioSIS/Widget/Course.php:176 classes/core/Widget.php:106
+#: classes/Decan/Widget/Course.php:71
+#: classes/Decan/Widget/Course.php:120
+#: classes/Decan/Widget/Course.php:169
+#: classes/Decan/Widget/Course.php:176 classes/core/Widget.php:106
 #: classes/core/Widget.php:155 classes/core/Widget.php:204
 #: classes/core/Widget.php:211 modules/Attendance/Administration.php:325
 #: modules/Attendance/Administration.php:344
@@ -1788,8 +1788,8 @@ msgid_plural "Courses"
 msgstr[0] "Curso"
 msgstr[1] "Cursos"
 
-#: classes/RosarioSIS/Widget/Course.php:93
-#: classes/RosarioSIS/Widget/Course.php:175 classes/core/Widget.php:128
+#: classes/Decan/Widget/Course.php:93
+#: classes/Decan/Widget/Course.php:175 classes/core/Widget.php:128
 #: classes/core/Widget.php:210 modules/Attendance/TeacherCompletion.php:217
 #: modules/Eligibility/TeacherCompletion.php:187
 #: modules/Grades/EditReportCardGrades.php:383
@@ -1811,20 +1811,20 @@ msgid_plural "Course Periods"
 msgstr[0] "Clase"
 msgstr[1] "Clases"
 
-#: classes/RosarioSIS/Widget/Course.php:123
-#: classes/RosarioSIS/Widget/Request.php:76 classes/core/Widget.php:158
+#: classes/Decan/Widget/Course.php:123
+#: classes/Decan/Widget/Request.php:76 classes/core/Widget.php:158
 #: classes/core/Widget.php:290 modules/Scheduling/Courses.php:1393
 #: modules/Scheduling/functions.inc.php:81
 msgid "Choose"
 msgstr "Escoger"
 
-#: classes/RosarioSIS/Widget/CpAbsences.php:90
-#: classes/RosarioSIS/Widget/CpAbsences.php:101 classes/core/Widget.php:465
+#: classes/Decan/Widget/CpAbsences.php:90
+#: classes/Decan/Widget/CpAbsences.php:101 classes/core/Widget.php:465
 #: classes/core/Widget.php:476
 msgid "Course Period Absences"
 msgstr "Ausencias de la Clase"
 
-#: classes/RosarioSIS/Widget/CpAbsences.php:103 classes/core/Widget.php:478
+#: classes/Decan/Widget/CpAbsences.php:103 classes/core/Widget.php:478
 msgid ""
 "Use the Choose link of the Course widget (under Scheduling) to select a "
 "Course Period."
@@ -1832,22 +1832,22 @@ msgstr ""
 "Usar el enlace Escoger del componente Curso (bajo Horarios) para seleccionar "
 "una Clase."
 
-#: classes/RosarioSIS/Widget/Eligibility.php:47
-#: classes/RosarioSIS/Widgets.php:312 classes/core/Widget.php:1041
+#: classes/Decan/Widget/Eligibility.php:47
+#: classes/Decan/Widgets.php:312 classes/core/Widget.php:1041
 #: classes/core/Widgets.php:304 modules/Grades/Configuration.php:235
 #: modules/Users/Preferences.php:741
 msgid "Eligibility"
 msgstr "Elegibilidad"
 
-#: classes/RosarioSIS/Widget/Eligibility.php:48
-#: classes/RosarioSIS/Widget/Eligibility.php:59 classes/core/Widget.php:1042
+#: classes/Decan/Widget/Eligibility.php:48
+#: classes/Decan/Widget/Eligibility.php:59 classes/core/Widget.php:1042
 #: classes/core/Widget.php:1053
 msgid "Ineligible"
 msgstr "Inelegible"
 
-#: classes/RosarioSIS/Widget/Enrolled.php:56
-#: classes/RosarioSIS/Widget/Enrolled.php:67
-#: classes/RosarioSIS/Widget/Enrolled.php:77 classes/core/Widget.php:1874
+#: classes/Decan/Widget/Enrolled.php:56
+#: classes/Decan/Widget/Enrolled.php:67
+#: classes/Decan/Widget/Enrolled.php:77 classes/core/Widget.php:1874
 #: classes/core/Widget.php:1885 classes/core/Widget.php:1895
 #: modules/Scheduling/AddDrop.php:50 modules/Scheduling/Schedule.php:270
 #: modules/Students/includes/AddDrop.php:61
@@ -1857,29 +1857,29 @@ msgstr "Inelegible"
 msgid "Enrolled"
 msgstr "Matriculado"
 
-#: classes/RosarioSIS/Widget/Enrolled.php:67
-#: classes/RosarioSIS/Widget/IncidentDate.php:81
-#: classes/RosarioSIS/Widget/MedicalDate.php:72 classes/core/Widget.php:1366
+#: classes/Decan/Widget/Enrolled.php:67
+#: classes/Decan/Widget/IncidentDate.php:81
+#: classes/Decan/Widget/MedicalDate.php:72 classes/core/Widget.php:1366
 #: classes/core/Widget.php:1885 classes/core/Widget.php:2287
 msgid "On or After"
 msgstr "En o Después"
 
-#: classes/RosarioSIS/Widget/Enrolled.php:77
-#: classes/RosarioSIS/Widget/IncidentDate.php:91
-#: classes/RosarioSIS/Widget/MedicalDate.php:82 classes/core/Widget.php:1376
+#: classes/Decan/Widget/Enrolled.php:77
+#: classes/Decan/Widget/IncidentDate.php:91
+#: classes/Decan/Widget/MedicalDate.php:82 classes/core/Widget.php:1376
 #: classes/core/Widget.php:1895 classes/core/Widget.php:2297
 msgid "On or Before"
 msgstr "En o Antes"
 
-#: classes/RosarioSIS/Widget/Enrolled.php:87 classes/core/Widget.php:1905
+#: classes/Decan/Widget/Enrolled.php:87 classes/core/Widget.php:1905
 msgid "Attendance Start"
 msgstr "Inicio de la Asistencia"
 
-#: classes/RosarioSIS/Widget/FsaAccountId.php:38 classes/core/Widget.php:2210
+#: classes/Decan/Widget/FsaAccountId.php:38 classes/core/Widget.php:2210
 msgid "Food Service Account ID"
 msgstr "ID de Cuenta del Servicio de Comida"
 
-#: classes/RosarioSIS/Widget/FsaAccountId.php:47 classes/core/Widget.php:2219
+#: classes/Decan/Widget/FsaAccountId.php:47 classes/core/Widget.php:2219
 #: modules/Food_Service/AssignSchool.php:68
 #: modules/Food_Service/BalanceReport.php:66
 #: modules/Food_Service/Reminders.php:185
@@ -1892,12 +1892,12 @@ msgstr "ID de Cuenta del Servicio de Comida"
 msgid "Account ID"
 msgstr "Cuenta"
 
-#: classes/RosarioSIS/Widget/FsaDiscount.php:39 classes/core/Widget.php:2059
+#: classes/Decan/Widget/FsaDiscount.php:39 classes/core/Widget.php:2059
 #: modules/Users/Preferences.php:748
 msgid "Food Service Discount"
 msgstr "Descuento del Servicio de Comida"
 
-#: classes/RosarioSIS/Widget/FsaDiscount.php:48 classes/core/Widget.php:2068
+#: classes/Decan/Widget/FsaDiscount.php:48 classes/core/Widget.php:2068
 #: modules/Food_Service/MenuReports.php:234
 #: modules/Food_Service/MenuReports.php:312
 #: modules/Food_Service/Student.inc.php:114
@@ -1910,37 +1910,37 @@ msgstr "Descuento del Servicio de Comida"
 msgid "Discount"
 msgstr "Descuento"
 
-#: classes/RosarioSIS/Widget/FsaDiscount.php:51 classes/core/Widget.php:2071
+#: classes/Decan/Widget/FsaDiscount.php:51 classes/core/Widget.php:2071
 #: modules/Food_Service/Student.inc.php:116
 #: modules/Food_Service/Students/Accounts.php:273 modules/misc/Export.php:379
 msgid "Full"
 msgstr "Integro"
 
-#: classes/RosarioSIS/Widget/FsaDiscount.php:52 classes/core/Widget.php:2072
+#: classes/Decan/Widget/FsaDiscount.php:52 classes/core/Widget.php:2072
 #: modules/Food_Service/Student.inc.php:109
 #: modules/Food_Service/Students/Accounts.php:266
 msgid "Reduced"
 msgstr "Reducido"
 
-#: classes/RosarioSIS/Widget/FsaDiscount.php:53 classes/core/Widget.php:2073
+#: classes/Decan/Widget/FsaDiscount.php:53 classes/core/Widget.php:2073
 #: modules/Food_Service/Student.inc.php:109
 #: modules/Food_Service/Students/Accounts.php:266
 msgid "Free"
 msgstr "Gratis"
 
-#: classes/RosarioSIS/Widget/Gpa.php:40 classes/RosarioSIS/Widget/Gpa.php:61
+#: classes/Decan/Widget/Gpa.php:40 classes/Decan/Widget/Gpa.php:61
 #: classes/core/Widget.php:531 classes/core/Widget.php:552
 #: modules/Grades/GPARankList.php:66
 msgid "Weighted GPA"
 msgstr "Promedio Ponderado"
 
-#: classes/RosarioSIS/Widget/Gpa.php:41 classes/RosarioSIS/Widget/Gpa.php:62
+#: classes/Decan/Widget/Gpa.php:41 classes/Decan/Widget/Gpa.php:62
 #: classes/core/Widget.php:532 classes/core/Widget.php:553
 #: modules/Grades/GPARankList.php:66
 msgid "Unweighted GPA"
 msgstr "Promedio No Ponderado"
 
-#: classes/RosarioSIS/Widget/Gpa.php:72 classes/core/Widget.php:563
+#: classes/Decan/Widget/Gpa.php:72 classes/core/Widget.php:563
 #: modules/Grades/EditReportCardGrades.php:269
 #: modules/Grades/includes/Dashboard.inc.php:131
 #: modules/Grades/includes/Grades.fnc.php:30
@@ -1952,41 +1952,41 @@ msgstr "Promedio No Ponderado"
 msgid "GPA"
 msgstr "Promedio"
 
-#: classes/RosarioSIS/Widget/Gpa.php:74 classes/core/Widget.php:565
+#: classes/Decan/Widget/Gpa.php:74 classes/core/Widget.php:565
 #: modules/Grades/EditReportCardGrades.php:272
 #: modules/Grades/EditReportCardGrades.php:282
 msgid "Weighted"
 msgstr "Ponderado"
 
-#: classes/RosarioSIS/Widget/IncidentDate.php:70
-#: classes/RosarioSIS/Widget/IncidentDate.php:81
-#: classes/RosarioSIS/Widget/IncidentDate.php:91
-#: classes/RosarioSIS/Widget/IncidentDate.php:109 classes/core/Widget.php:1355
+#: classes/Decan/Widget/IncidentDate.php:70
+#: classes/Decan/Widget/IncidentDate.php:81
+#: classes/Decan/Widget/IncidentDate.php:91
+#: classes/Decan/Widget/IncidentDate.php:109 classes/core/Widget.php:1355
 #: classes/core/Widget.php:1366 classes/core/Widget.php:1376
 #: classes/core/Widget.php:1394 modules/Discipline/MakeReferral.php:187
 #: modules/Discipline/Referrals.php:111 modules/Discipline/Referrals.php:222
 msgid "Incident Date"
 msgstr "Día del Incidente"
 
-#: classes/RosarioSIS/Widget/LetterGrade.php:49 classes/core/Widget.php:745
+#: classes/Decan/Widget/LetterGrade.php:49 classes/core/Widget.php:745
 #: modules/Scheduling/MassRequests.php:143 modules/Scheduling/Requests.php:243
 #: modules/Scheduling/includes/unfilledRequests.inc.php:62
 msgid "Without"
 msgstr "Sin"
 
-#: classes/RosarioSIS/Widget/LetterGrade.php:50 classes/core/Widget.php:746
+#: classes/Decan/Widget/LetterGrade.php:50 classes/core/Widget.php:746
 #: modules/Scheduling/MassRequests.php:107
 #: modules/Scheduling/PrintRequests.php:102 modules/Scheduling/Requests.php:234
 #: modules/Scheduling/includes/unfilledRequests.inc.php:61
 msgid "With"
 msgstr "Con"
 
-#: classes/RosarioSIS/Widget/LetterGrade.php:51 classes/core/Widget.php:747
+#: classes/Decan/Widget/LetterGrade.php:51 classes/core/Widget.php:747
 #: modules/Grades/ReportCardGrades.php:72
 msgid "Report Card Grade"
 msgstr "Calificación del Boletín de Calificaciones"
 
-#: classes/RosarioSIS/Widget/LetterGrade.php:82 classes/core/Widget.php:778
+#: classes/Decan/Widget/LetterGrade.php:82 classes/core/Widget.php:778
 #: modules/Eligibility/Student.php:179 modules/Eligibility/StudentList.php:93
 #: modules/Grades/EditReportCardGrades.php:403
 #: modules/Grades/FinalGrades.php:529 modules/Grades/GradeBreakdown.php:163
@@ -1999,30 +1999,30 @@ msgid_plural "Grades"
 msgstr[0] "Calificación"
 msgstr[1] "Calificaciones"
 
-#: classes/RosarioSIS/Widget/LetterGrade.php:84 classes/core/Widget.php:780
+#: classes/Decan/Widget/LetterGrade.php:84 classes/core/Widget.php:780
 msgid "Did not receive"
 msgstr "No fue recibida"
 
-#: classes/RosarioSIS/Widget/MailingLabels.php:46 classes/core/Widget.php:1160
+#: classes/Decan/Widget/MailingLabels.php:46 classes/core/Widget.php:1160
 msgid "Mailing Labels"
 msgstr "Etiquetas de Correo"
 
-#: classes/RosarioSIS/Widget/NextYear.php:29
-#: classes/RosarioSIS/Widget/NextYear.php:61 classes/core/Widget.php:1682
+#: classes/Decan/Widget/NextYear.php:29
+#: classes/Decan/Widget/NextYear.php:61 classes/core/Widget.php:1682
 #: classes/core/Widget.php:1714 modules/Students/AssignOtherInfo.php:389
 #: modules/Students/includes/Enrollment.inc.php:53
 #: plugins/Moodle/includes/ImportUsers.fnc.php:261
 msgid "Next grade at current school"
 msgstr "Próximo grado en la institución actual"
 
-#: classes/RosarioSIS/Widget/NextYear.php:48
-#: classes/RosarioSIS/Widget/NextYear.php:76 classes/core/Widget.php:1701
+#: classes/Decan/Widget/NextYear.php:48
+#: classes/Decan/Widget/NextYear.php:76 classes/core/Widget.php:1701
 #: classes/core/Widget.php:1729
 msgid "Next Year"
 msgstr "Año Siguiente"
 
-#: classes/RosarioSIS/Widget/Reporter.php:47
-#: classes/RosarioSIS/Widget/Reporter.php:64 classes/core/Widget.php:1263
+#: classes/Decan/Widget/Reporter.php:47
+#: classes/Decan/Widget/Reporter.php:64 classes/core/Widget.php:1263
 #: classes/core/Widget.php:1280 modules/Discipline/MakeReferral.php:169
 #: modules/Discipline/MakeReferral.php:176 modules/Discipline/Referrals.php:111
 #: modules/Discipline/Referrals.php:214
@@ -2032,8 +2032,8 @@ msgstr "Año Siguiente"
 msgid "Reporter"
 msgstr "Relator"
 
-#: classes/RosarioSIS/Widget/Request.php:45
-#: classes/RosarioSIS/Widget/Request.php:73 classes/core/Widget.php:259
+#: classes/Decan/Widget/Request.php:45
+#: classes/Decan/Widget/Request.php:73 classes/core/Widget.php:259
 #: classes/core/Widget.php:287 modules/Scheduling/PrintRequests.php:23
 #: modules/Scheduling/PrintRequests.php:62
 #: modules/Scheduling/PrintRequests.php:75 modules/Scheduling/Requests.php:63
@@ -2045,28 +2045,28 @@ msgid_plural "Requests"
 msgstr[0] "Solicitud"
 msgstr[1] "Solicitudes"
 
-#: classes/RosarioSIS/Widget/Request.php:61 classes/core/Widget.php:275
+#: classes/Decan/Widget/Request.php:61 classes/core/Widget.php:275
 msgid "Missing Request"
 msgstr "Solicitud Perdida"
 
-#: classes/RosarioSIS/Widget/Rolled.php:34
-#: classes/RosarioSIS/Widget/Rolled.php:43 classes/core/Widget.php:1943
+#: classes/Decan/Widget/Rolled.php:34
+#: classes/Decan/Widget/Rolled.php:43 classes/core/Widget.php:1943
 #: classes/core/Widget.php:1952
 msgid "Previously Enrolled"
 msgstr "Anteriormente Matriculado"
 
-#: classes/RosarioSIS/Widgets.php:255 classes/core/Widgets.php:247
+#: classes/Decan/Widgets.php:255 classes/core/Widgets.php:247
 #: plugins/Moodle/includes/ImportUsers.fnc.php:212
 msgid "Enrollment"
 msgstr "Matrícula"
 
-#: classes/RosarioSIS/Widgets.php:271 classes/core/Widgets.php:263
+#: classes/Decan/Widgets.php:271 classes/core/Widgets.php:263
 #: modules/Scheduling/Menu.php:14 modules/Scheduling/Menu.php:36
 #: modules/Scheduling/Menu.php:48
 msgid "Scheduling"
 msgstr "Horarios"
 
-#: classes/RosarioSIS/Widgets.php:284 classes/core/Widgets.php:276
+#: classes/Decan/Widgets.php:284 classes/core/Widgets.php:276
 #: modules/Attendance/Administration.php:233
 #: modules/Attendance/AttendanceCodes.php:146 modules/Attendance/Menu.php:14
 #: modules/Attendance/Menu.php:30 modules/Attendance/Menu.php:37
@@ -2078,7 +2078,7 @@ msgstr "Horarios"
 msgid "Attendance"
 msgstr "Asistencia"
 
-#: classes/RosarioSIS/Widgets.php:298 classes/core/Widgets.php:290
+#: classes/Decan/Widgets.php:298 classes/core/Widgets.php:290
 #: modules/Grades/Assignments.php:968 modules/Grades/GradeBreakdown.php:131
 #: modules/Grades/Menu.php:14 modules/Grades/Menu.php:38
 #: modules/Grades/Menu.php:43 modules/Grades/Menu.php:62
@@ -2089,13 +2089,13 @@ msgstr "Asistencia"
 msgid "Grades"
 msgstr "Calificaciones"
 
-#: classes/RosarioSIS/Widgets.php:343 classes/core/Widgets.php:335
+#: classes/Decan/Widgets.php:343 classes/core/Widgets.php:335
 #: modules/Discipline/Menu.php:14 modules/Discipline/Menu.php:28
 #: modules/Discipline/Menu.php:35
 msgid "Discipline"
 msgstr "Disciplina"
 
-#: classes/RosarioSIS/Widgets.php:357 classes/core/Widgets.php:349
+#: classes/Decan/Widgets.php:357 classes/core/Widgets.php:349
 #: modules/Accounting/includes/DailyTotals.php:32
 #: modules/Accounting/includes/DailyTransactions.php:47
 #: modules/Student_Billing/Menu.php:14 modules/Student_Billing/Menu.php:29
@@ -9457,11 +9457,11 @@ msgstr "Pare"
 #~ msgid "Unauthorized file extension"
 #~ msgstr "Extensión del archivo no autorizada"
 
-#~ msgid "RosarioSIS Login"
-#~ msgstr "Entrar RosarioSIS"
+#~ msgid "Decan Login"
+#~ msgstr "Entrar Decan"
 
-#~ msgid "RosarioSIS ID"
-#~ msgstr "ID RosarioSIS"
+#~ msgid "Decan ID"
+#~ msgstr "ID Decan"
 
 #~ msgid "Unscheduled Request"
 #~ msgstr "Solicitud "

@@ -4,7 +4,7 @@
  *
  * Incremental updates
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

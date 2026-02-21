@@ -8,7 +8,7 @@
  *
  * @link https://francoisjacquet.gitlab.io/password-strength-zxcvbn-js
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage assets/js
  * @since 4.4
  * @since 11.1 Add userInputs param to prevent using App name, username, or email in the password

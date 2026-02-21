@@ -2,7 +2,7 @@
 /**
  * Security class
  *
- * Note: adapted for RosarioSIS.
+ * Note: adapted for Decan.
  * - Renamed to Security.
  * - CSRF code removed.
  * - Constructor $charset param optional.

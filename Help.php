@@ -6,7 +6,7 @@
  * Translated if locale/[code]/Help.php file exists
  * Based on user profile
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 require_once 'Warehouse.php';
@@ -104,11 +104,11 @@ foreach ( (array) $help as $program => $value ) :
 <?php
 	if ( $program == 'default' )
 	{
-		echo ParseMLField( Config( 'TITLE' ) ) . ' ' . ROSARIO_VERSION;
+		echo ParseMLField( Config( 'TITLE' ) ) . ' ' . DECAN_VERSION;
 	}
 	else
 	{
-		$program_title = 'RosarioSIS';
+		$program_title = 'Decan';
 
 		// Fix do not use ProgramTitle() (loads Menu.php in English only)
 		// Loop modules.
@@ -144,7 +144,7 @@ foreach ( (array) $help as $program => $value ) :
 <?php endforeach; ?>
 
 <div class="center">
-	<b><a href="https://www.rosariosis.org/">https://www.rosariosis.org/</a></b>
+	<b>Decan Version 1.0</b>
 </div>
 
 <?php

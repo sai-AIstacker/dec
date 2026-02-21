@@ -295,7 +295,7 @@ if ( empty( $_REQUEST['save'] )
 		$test_url = str_replace( '&save=true', '&check=Y', $form_url );
 
 		echo '<input type="button" value="' . AttrEscape( _( 'Test' ) ) .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			'" class="onclick-ajax-link" data-link="' . URLEscape( $test_url ) . '" />';
 	}
 

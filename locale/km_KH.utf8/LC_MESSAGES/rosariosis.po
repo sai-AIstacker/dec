@@ -1,10 +1,10 @@
-# RosarioSIS Khmer Translation
+# Decan Khmer Translation
 # Copyright (C) 2017 Asian Hope and System Experts
-# This file is distributed under the same license as the RosarioSIS package.
+# This file is distributed under the same license as the Decan package.
 # Fracois Jacquet, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: RosarioSIS\n"
+"Project-Id-Version: Decan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-14 16:02-0500\n"
 "PO-Revision-Date: 2022-07-19 19:24+0200\n"
@@ -6651,11 +6651,11 @@ msgstr ""
 #~ msgid "Unauthorized file extension"
 #~ msgstr "Extensión del archivo no autorizada"
 
-#~ msgid "RosarioSIS Login"
-#~ msgstr "Entrar RosarioSIS"
+#~ msgid "Decan Login"
+#~ msgstr "Entrar Decan"
 
-#~ msgid "RosarioSIS ID"
-#~ msgstr "ID RosarioSIS"
+#~ msgid "Decan ID"
+#~ msgstr "ID Decan"
 
 #~ msgid "Unscheduled Request"
 #~ msgstr "Unscheduled Request"

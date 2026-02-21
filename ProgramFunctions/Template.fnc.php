@@ -5,7 +5,7 @@
  * Useful for Document, Letter, or Email related programs.
  * Default templates must be saved to DB under STAFF_ID 0.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

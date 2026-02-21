@@ -6,7 +6,7 @@
  *
  * @since 12.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 $.ajax($('#ajax_url').val());

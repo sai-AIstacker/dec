@@ -96,7 +96,7 @@ if ( empty( $_REQUEST['search_modfunc'] ) )
 					 * Raise deprecation notice.
 					 */
 					trigger_error(
-						'$extra[\'extra_search\'] is deprecated since RosarioSIS 12.4.1, use $extra[\'search\'] instead',
+						'$extra[\'extra_search\'] is deprecated since Decan 12.4.1, use $extra[\'search\'] instead',
 						E_USER_DEPRECATED
 					);
 
@@ -113,7 +113,7 @@ if ( empty( $_REQUEST['search_modfunc'] ) )
 					 * Raise deprecation notice.
 					 */
 					trigger_error(
-						'$extra[\'second_col\'] is deprecated since RosarioSIS 12.4.1, use $extra[\'search\'] instead',
+						'$extra[\'second_col\'] is deprecated since Decan 12.4.1, use $extra[\'search\'] instead',
 						E_USER_DEPRECATED
 					);
 

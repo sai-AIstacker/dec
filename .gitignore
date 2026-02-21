@@ -220,7 +220,7 @@ phpdoc-cache*
 phpdoc/
 /php
 
-#RosarioSIS
+#Decan
 meta/
 !classes/mikehaertl/tmp/
 /config.inc.php
@@ -341,3 +341,4 @@ plugins/update.sh
 locale/fr_FR.utf8_ParisComSup
 functions/1GetMP.php
 assets/themes/CoolAdmin
+sessions/

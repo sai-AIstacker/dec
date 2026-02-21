@@ -2,7 +2,7 @@
 /**
  * Student Fields
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

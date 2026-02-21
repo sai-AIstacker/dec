@@ -2,14 +2,14 @@
 /**
  * Send Email function.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
 /**
  * Send Email
  * And eventual Attachment(s)
- * From: RosarioSIS <rosariosis@yourdomain.com>
+ * From: Decan <rosariosis@yourdomain.com>
  *
  * @since 3.6.1 ProgramFunctions/SendEmail.fnc.php|before_send action hook.
  * @since 8.7 ProgramFunctions/SendEmail.fnc.php|send_error action hook.
@@ -81,7 +81,7 @@ function SendEmail( $to, $subject, $message, $reply_to = null, $cc = null, $atta
 	if ( ! $phpmailer->From
 		|| $phpmailer->From === 'root@localhost' )
 	{
-		// Set Email address to send from: RosarioSIS <rosariosis@yourdomain.com>.
+		// Set Email address to send from: Decan <rosariosis@yourdomain.com>.
 		$phpmailer->From = $programname . '@' . $sitename;
 	}
 

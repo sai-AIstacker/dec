@@ -1,6 +1,6 @@
 # THEMES
 
-Place here the Themes you want to add to RosarioSIS.
+Place here the Themes you want to add to Decan.
 
 ## Activate
 

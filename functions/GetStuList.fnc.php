@@ -2,7 +2,7 @@
 /**
  * Get Student List functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -1137,7 +1137,7 @@ function makeMultiple( $value, $column )
 
 /**
  * Append:
- * - RosarioSIS ID(s)
+ * - Decan ID(s)
  * - Last Name
  * - First Name
  * - Grade Level
@@ -1164,7 +1164,7 @@ function appendSQL( $sql, $extra = [] )
 
 	$no_search_terms = isset( $extra['NoSearchTerms'] ) && $extra['NoSearchTerms'];
 
-	// RosarioSIS ID(s).
+	// Decan ID(s).
 	if ( isset( $_REQUEST['stuid'] )
 		&& ! empty( $_REQUEST['stuid'] ) )
 	{

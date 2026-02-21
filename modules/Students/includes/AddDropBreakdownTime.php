@@ -2,7 +2,7 @@
 /**
  * Add / Drop Breakdown over Time
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Students
  */
 

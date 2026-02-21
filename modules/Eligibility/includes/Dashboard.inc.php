@@ -2,7 +2,7 @@
 /**
  * Eligibility Dashboard module
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

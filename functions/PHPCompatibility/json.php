@@ -9,7 +9,7 @@
  *
  * @copyright WordPress
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

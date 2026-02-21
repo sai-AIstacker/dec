@@ -2,7 +2,7 @@
 /**
  * Make Letter Grade function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

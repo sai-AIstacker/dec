@@ -151,7 +151,7 @@ if ( UserStaffID() && ! $_REQUEST['modfunc'] )
 			( $staff['BALANCE'] == 0 && AllowEdit() ?
 				'<input type="button" value="' . AttrEscape( _( 'Delete Account' ) ) .
 					// Change form action's modfunc to delete.
-					// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+					// @since Decan 12.5 CSP remove unsafe-inline Javascript
 					'" class="onclick-ajax-link" data-link="' . URLEscape( $delete_url ) . '" />'
 				: ''
 			)

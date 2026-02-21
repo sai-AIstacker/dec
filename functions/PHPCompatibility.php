@@ -3,7 +3,7 @@
  * Implementation for PHP functions either missing from older PHP versions or not included by default.
  * Shim, polyfill, emulation...
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

@@ -2,7 +2,7 @@
 /**
  * Bottom.php related functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

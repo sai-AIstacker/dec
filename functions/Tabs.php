@@ -2,7 +2,7 @@
 /**
  * Tabs functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

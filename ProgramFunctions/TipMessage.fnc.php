@@ -2,7 +2,7 @@
 /**
  * Tip Message functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

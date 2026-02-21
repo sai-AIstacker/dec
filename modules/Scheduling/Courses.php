@@ -759,7 +759,7 @@ if (  ( ! $_REQUEST['modfunc']
 			'Yes',
 			'No',
 			false,
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			'class="onchange-ajax-link" data-link="' . URLEscape( $show_only_my_courses_url ) . '"'
 		);
 
@@ -923,7 +923,7 @@ if (  ( ! $_REQUEST['modfunc']
 					'&course_period_id=' . $_REQUEST['course_period_id'];
 
 				$delete_button = '<input type="button" value="' . AttrEscape( _( 'Delete' ) ) .
-					// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+					// @since Decan 12.5 CSP remove unsafe-inline Javascript
 					'" class="onclick-ajax-link" data-link="' . URLEscape( $delete_url ) . '" />';
 			}
 		}

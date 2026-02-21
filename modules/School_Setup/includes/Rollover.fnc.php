@@ -2,7 +2,7 @@
 /**
  * Rollover functions
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

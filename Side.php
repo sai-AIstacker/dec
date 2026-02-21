@@ -4,7 +4,7 @@
  *
  * Side menu
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 require_once 'Warehouse.php';

@@ -2,7 +2,7 @@
 /**
  * Daily Totals program
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

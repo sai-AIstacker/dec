@@ -4,9 +4,9 @@
  * - Prepare PHP SELF
  * - Redirect URL
  * - Escape URL
- * - RosarioSIS URL
+ * - Decan URL
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -303,7 +303,7 @@ function _myURLEncode( $string )
 }
 
 /**
- * RosarioSIS URL: dir (site), or script (page), or request (includes request params)
+ * Decan URL: dir (site), or script (page), or request (includes request params)
  * Will detect https inside Docker or behind reverse proxy
  *
  * Given this URL: https://domain.com/rosariosis/Modules.php?modname=Module/Program.php

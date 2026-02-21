@@ -474,7 +474,7 @@ if ( UserStudentID() )
 			echo '<input type="button" value="' .
 				AttrEscape( _( 'Remove Marking Period' ) ) .
 				// Change form action's modfunc to removemp.
-				// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+				// @since Decan 12.5 CSP remove unsafe-inline Javascript
 				'" class="onclick-ajax-link" data-link="' . URLEscape( $removemp_url ) . '" />';
 		}
 

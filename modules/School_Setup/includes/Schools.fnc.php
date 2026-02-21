@@ -3,7 +3,7 @@
  * Schools functions
  *
  * @subpackage modules
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

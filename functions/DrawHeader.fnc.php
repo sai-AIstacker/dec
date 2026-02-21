@@ -2,7 +2,7 @@
 /**
  * Draw Header function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

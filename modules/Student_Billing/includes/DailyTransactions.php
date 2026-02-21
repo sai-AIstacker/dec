@@ -2,7 +2,7 @@
 /**
  * Daily Transactions program
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

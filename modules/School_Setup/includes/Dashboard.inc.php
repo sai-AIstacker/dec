@@ -2,7 +2,7 @@
 /**
  * School Setup Dashboard module
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

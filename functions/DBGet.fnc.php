@@ -2,7 +2,7 @@
 /**
  * Get from DB function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

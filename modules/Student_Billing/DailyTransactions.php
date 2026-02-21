@@ -4,7 +4,7 @@
  *
  * @since 8.0 Merge Daily Transactions & Daily Totals programs
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 
@@ -53,7 +53,7 @@ function _programMenu( $program )
 			'totals' => _( 'Daily Totals' ),
 		],
 		false,
-		// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+		// @since Decan 12.5 CSP remove unsafe-inline Javascript
 		// Note: `this.value` inside link is automatically replaced
 		'class="onchange-ajax-link" data-link="' . $link . 'this.value" autocomplete="off"',
 		false

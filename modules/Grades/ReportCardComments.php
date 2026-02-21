@@ -160,7 +160,7 @@ if ( ! $_REQUEST['modfunc'] )
 
 		$subject_select = '<label for="subject_id" class="a11y-hidden">' . _( 'Subject' ) . '</label>
 		<select name="subject_id" ' .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			// Note: `this.value` inside link is automatically replaced
 			'class="onchange-ajax-link" data-link="' . $subject_onchange_URL . 'this.value">';
 
@@ -189,7 +189,7 @@ if ( ! $_REQUEST['modfunc'] )
 
 		$course_select  = '<label for="course_id" class="a11y-hidden">' . _( 'Course' ) . '</label>
 		<select name="course_id" ' .
-			// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+			// @since Decan 12.5 CSP remove unsafe-inline Javascript
 			// Note: `this.value` inside link is automatically replaced
 			'class="onchange-ajax-link" data-link="' . $course_onchange_URL . 'this.value">';
 

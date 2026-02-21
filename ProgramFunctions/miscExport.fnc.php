@@ -2,7 +2,7 @@
 /**
  * Functions used by the `misc/Export.php` program
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

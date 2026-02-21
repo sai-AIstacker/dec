@@ -1,6 +1,6 @@
 <?php
 /**
- * Install RosarioSIS database
+ * Install Decan database
  *
  * Please create your database first
  * and then fill in the details in the config.inc.php file.
@@ -96,7 +96,7 @@ if ( _configTableCheck() )
 		db_query( $addons_sql );
 	}
 
-	die( 'Success: database translated. <a href="index.php">Access RosarioSIS</a>' );
+	die( 'Success: database translated. <a href="index.php">Access Decan</a>' );
 }
 
 $sql_file = $DatabaseType === 'mysql' ? 'rosariosis_mysql.sql' : 'rosariosis.sql';
@@ -153,7 +153,7 @@ if ( file_exists( 'rosariosis_addons.sql' ) )
 
 die( 'Success: database' .
 	( file_exists( 'rosariosis_addons.sql' ) ? ' and add-ons' : '' ) .
-	' installed. <a href="index.php">Access RosarioSIS</a>' );
+	' installed. <a href="index.php">Access Decan</a>' );
 
 /**
  * Check if config table exists

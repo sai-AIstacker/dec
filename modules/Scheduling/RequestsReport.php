@@ -2,7 +2,7 @@
 /**
  * Merge Requests Report & Unfilled Requests
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage Scheduling
  */
 
@@ -24,7 +24,7 @@ $report_select = SelectInput(
 		'unfilled' => _( 'Unfilled Requests' ),
 	],
 	false,
-	// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+	// @since Decan 12.5 CSP remove unsafe-inline Javascript
 	// Note: `this.value` inside link is automatically replaced
 	'class="onchange-ajax-link" data-link="' . $report_link . 'this.value" autocomplete="off"',
 	false

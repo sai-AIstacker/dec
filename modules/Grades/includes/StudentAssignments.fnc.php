@@ -2,7 +2,7 @@
 /**
  * Student Assignments functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules/Grades
  */
 
@@ -107,7 +107,7 @@ function StudentAssignmentSubmit( $assignment_id, &$error )
 		}
 	}
 
-	if ( isset( $_REQUEST['submission_file'] ) // @deprecated since RosarioSIS 12.0 use FormData.
+	if ( isset( $_REQUEST['submission_file'] ) // @deprecated since Decan 12.0 use FormData.
 			|| isset( $_FILES['submission_file'] ) )
 	{
 		if ( ! empty( $old_data['files'] ) )

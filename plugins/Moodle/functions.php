@@ -814,14 +814,14 @@ function MoodlePasswordCheck( $password )
 }
 
 /**
- * Get Moodle ID by RosarioSIS ID
+ * Get Moodle ID by Decan ID
  *
  * @since 6.0
  *
  * @uses moodlexrosario DB cross table.
  *
  * @param string $column     Column, what type of object.
- * @param int    $rosario_id RosarioSIS ID.
+ * @param int    $rosario_id Decan ID.
  *
  * @return int 0 or Moodle ID.
  */

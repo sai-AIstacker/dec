@@ -524,7 +524,7 @@ $type_onchange_URL = URLEscape( "Modules.php?modname=" . $_REQUEST['modname'] .
 	"&type_id=" );
 
 $type_select = '<select name="type_id" id="type_id" autocomplete="off" ' .
-	// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+	// @since Decan 12.5 CSP remove unsafe-inline Javascript
 	// Note: `this.value` inside link is automatically replaced
 	'class="onchange-ajax-link" data-link="' . $type_onchange_URL . 'this.value">';
 
@@ -548,7 +548,7 @@ $assignment_onchange_URL = URLEscape( "Modules.php?modname=" . $_REQUEST['modnam
 	"&assignment_id=" );
 
 $assignment_select = '<select name="assignment_id" id="assignment_id" autocomplete="off" ' .
-	// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+	// @since Decan 12.5 CSP remove unsafe-inline Javascript
 	// Note: `this.value` inside link is automatically replaced
 	'class="onchange-ajax-link" data-link="' . $assignment_onchange_URL . 'this.value">';
 

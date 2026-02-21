@@ -3,7 +3,7 @@
  * Pop Table
  * Used for Login screen, Student Information (multiple tabs)...
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

@@ -4,7 +4,7 @@
  *
  * Incremental updates
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -439,8 +439,8 @@ function _update92()
 /**
  * Update to version 9.2.1
  *
- * 1. SQL set default nextval (auto increment) for RosarioSIS version < 5.0 on install,
- * serial column (auto increment was implemented in RosarioSIS 5.0)
+ * 1. SQL set default nextval (auto increment) for Decan version < 5.0 on install,
+ * serial column (auto increment was implemented in Decan 5.0)
  * 2. SQL set default nextval (auto increment) for old add-on modules.
  *
  * Local function
@@ -479,8 +479,8 @@ function _update921()
 
 
 	/**
-	 * 1. Set default nextval (auto increment) for RosarioSIS version < 5.0 on install,
-	 * serial column (auto increment was implemented in RosarioSIS 5.0)
+	 * 1. Set default nextval (auto increment) for Decan version < 5.0 on install,
+	 * serial column (auto increment was implemented in Decan 5.0)
 	 */
 	$set_default_nextval( 'user_profiles', 'id', 'user_profiles_id_seq' );
 	$set_default_nextval( 'students_join_people', 'id', 'students_join_people_id_seq' );

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: RosarioSIS\n"
+"Project-Id-Version: Decan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-21 18:05+0200\n"
 "PO-Revision-Date: 2022-07-19 19:23+0200\n"
@@ -8230,7 +8230,7 @@ msgstr "Публикуване на бележка в Moodle?"
 #~ msgstr ""
 #~ "Моля добавете ID на администратора (%s) във файла <i>config.inc.php</i>."
 
-#~ msgid "RosarioSIS ID"
+#~ msgid "Decan ID"
 #~ msgstr "Системен номер"
 
 #~ msgid "Gender"

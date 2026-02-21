@@ -2,7 +2,7 @@
 /**
  * Send Notification functions.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -152,7 +152,7 @@ function SendNotificationNewAdministrator( $staff_id, $to = '' )
 /**
  * Send Activate Student Account notification
  * Do not send notification if password not set.
- * Do not send notification if RosarioSIS installed on localhost (Windows typically).
+ * Do not send notification if Decan installed on localhost (Windows typically).
  *
  * @since 5.9
  *
@@ -201,7 +201,7 @@ function SendNotificationActivateStudentAccount( $student_id, $to = '' )
 			|| strpos( $rosario_url, 'localhost' ) !== false )
 		&& ! ROSARIO_DEBUG )
 	{
-		// Do not send notification if RosarioSIS installed on localhost (Windows typically).
+		// Do not send notification if Decan installed on localhost (Windows typically).
 		return false;
 	}
 
@@ -221,7 +221,7 @@ function SendNotificationActivateStudentAccount( $student_id, $to = '' )
 /**
  * Send Activate User Account notification
  * Do not send notification if password not set or "No Access" profile.
- * Do not send notification if RosarioSIS installed on localhost (Windows typically).
+ * Do not send notification if Decan installed on localhost (Windows typically).
  *
  * @since 5.9
  *
@@ -266,7 +266,7 @@ function SendNotificationActivateUserAccount( $staff_id, $to = '' )
 			|| strpos( $rosario_url, 'localhost' ) !== false )
 		&& ! ROSARIO_DEBUG )
 	{
-		// Do not send notification if RosarioSIS installed on localhost (Windows typically).
+		// Do not send notification if Decan installed on localhost (Windows typically).
 		return false;
 	}
 
@@ -286,7 +286,7 @@ function SendNotificationActivateUserAccount( $staff_id, $to = '' )
 /**
  * Send New Student Account notification
  * Do not send notification if password not set.
- * Send notification even if RosarioSIS installed on localhost (Windows typically)
+ * Send notification even if Decan installed on localhost (Windows typically)
  * because action should originate in user choice (checkbox checked).
  *
  * @since 6.1
@@ -353,7 +353,7 @@ function SendNotificationNewStudentAccount( $student_id, $to = '', $password = '
 /**
  * Send New User Account notification
  * Do not send notification if password not set or "No Access" profile.
- * Send notification even if RosarioSIS installed on localhost (Windows typically)
+ * Send notification even if Decan installed on localhost (Windows typically)
  * because action should originate in user choice (checkbox checked).
  *
  * @since 6.1
@@ -415,7 +415,7 @@ function SendNotificationNewUserAccount( $staff_id, $to = '', $password = '' )
 }
 
 /**
- * RosarioSIS login page URL
+ * Decan login page URL
  * Removes part beginning with 'Modules.php' or 'index.php' from URI.
  *
  * Local function

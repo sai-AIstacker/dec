@@ -2,7 +2,7 @@
 /**
  * Make Percent Grade function
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

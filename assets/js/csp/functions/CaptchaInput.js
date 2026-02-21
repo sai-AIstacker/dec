@@ -3,7 +3,7 @@
  *
  * @since 12.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 csp.functions.captchaInput = function() {

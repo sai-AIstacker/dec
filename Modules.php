@@ -6,7 +6,7 @@
  * Get requested program / modname, if allowed
  * Warehouse footer
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 require_once 'Warehouse.php';

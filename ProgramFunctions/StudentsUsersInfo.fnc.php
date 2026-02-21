@@ -4,7 +4,7 @@
  * Make functions
  * Wrappers for Inputs functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

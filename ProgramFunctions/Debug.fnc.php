@@ -1,11 +1,11 @@
 <?php
 /**
- * Debug RosarioSIS
+ * Debug Decan
  */
 
 /**
  * Load PHP Debug bar.
- * Does not integrate well with RosarioSIS...
+ * Does not integrate well with Decan...
  *
  * @see https://gitlab.com/francoisjacquet/rosariosis-meta#php-debug-bar
  *

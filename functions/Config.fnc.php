@@ -1,8 +1,8 @@
 <?php
 /**
- * RosarioSIS & Program Configuration functions
+ * Decan & Program Configuration functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

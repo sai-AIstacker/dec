@@ -84,7 +84,7 @@ function MoodleUsersFilter( $users )
 			|| ! empty( $user['suspended'] )
 			|| in_array( $user['id'], $moodlexrosario_user_ids ) )
 		{
-			// User is not confirmed, or suspended, or already in RosarioSIS.
+			// User is not confirmed, or suspended, or already in Decan.
 			continue;
 		}
 
@@ -143,7 +143,7 @@ function MoodleUsersMake( $users )
 }
 
 /**
- * Moake Moodle User Profile: select target user profile in RosarioSIS.
+ * Moake Moodle User Profile: select target user profile in Decan.
  *
  * @since 5.9
  *

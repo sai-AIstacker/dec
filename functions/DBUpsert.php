@@ -2,7 +2,7 @@
 /**
  * Insert into or Update DB functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

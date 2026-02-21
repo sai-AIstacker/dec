@@ -759,7 +759,7 @@ if (  ( UserStudentID()
 						'&student_id=' . UserStudentID() . "&modfunc=delete";
 
 					$delete_button = '<input type="button" value="' . AttrEscape( _( 'Delete' ) ) .
-						// @since RosarioSIS 12.5 CSP remove unsafe-inline Javascript
+						// @since Decan 12.5 CSP remove unsafe-inline Javascript
 						'" class="onclick-ajax-link" data-link="' . URLEscape( $delete_url ) . '" />';
 				}
 			}

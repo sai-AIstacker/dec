@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: RosarioSIS\n"
+"Project-Id-Version: Decan\n"
 "POT-Creation-Date: 2017-06-14 16:56-0500\n"
 "PO-Revision-Date: \n"
 "Last-Translator: François Jacquet <info@rosariosis.org>\n"
@@ -7982,7 +7982,7 @@ msgstr[5] ""
 
 #, fuzzy
 #~ msgid "%s Student email field ID"
-#~ msgstr "حقل معرف RosarioSIS ID البريد الإلكتروني للطالب"
+#~ msgstr "حقل معرف Decan ID البريد الإلكتروني للطالب"
 
 #~ msgid "Eligibility Activity Codes"
 #~ msgstr "أهلية نشاط رموز"
@@ -8032,10 +8032,10 @@ msgstr[5] ""
 #~ msgid "Months"
 #~ msgstr "أشهر"
 
-#~ msgid "RosarioSIS Login"
+#~ msgid "Decan Login"
 #~ msgstr "تسجيل الدخول"
 
-#~ msgid "RosarioSIS ID"
+#~ msgid "Decan ID"
 #~ msgstr "معرف ZAJSIS ID"
 
 #~ msgid "Gradescale"

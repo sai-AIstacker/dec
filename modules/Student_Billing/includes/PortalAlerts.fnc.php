@@ -2,7 +2,7 @@
 /**
  * Student Billing module Portal Alerts
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules/Student_Billing
  */
 

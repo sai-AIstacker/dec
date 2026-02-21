@@ -9,7 +9,7 @@
  *
  * @link https://github.com/phpmyadmin/motranslator
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

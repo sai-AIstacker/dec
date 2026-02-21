@@ -2,7 +2,7 @@
 /**
  * User functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage modules
  */
 

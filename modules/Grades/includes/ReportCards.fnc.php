@@ -1300,7 +1300,7 @@ function _getAttendanceDayRET( $st_list, $last_mp )
 
 	// Raise deprecation notice.
 	trigger_error(
-		'_getAttendanceDayRET() function is deprecated since RosarioSIS 12.0. Use _getDailyAbsencesMP() instead.',
+		'_getAttendanceDayRET() function is deprecated since Decan 12.0. Use _getDailyAbsencesMP() instead.',
 		E_USER_DEPRECATED
 	);
 
@@ -1454,7 +1454,7 @@ function _getAttendanceRET( $st_list )
 
 	// Raise deprecation notice.
 	trigger_error(
-		'_getAttendanceRET() function is deprecated since RosarioSIS 12.0. Use _getOtherAttendanceMP() instead.',
+		'_getAttendanceRET() function is deprecated since Decan 12.0. Use _getOtherAttendanceMP() instead.',
 		E_USER_DEPRECATED
 	);
 

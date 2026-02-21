@@ -2,7 +2,7 @@
 /**
  * Actions functions & definitions
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 
@@ -16,7 +16,7 @@
  *
  * @since 2.9.7 Actions API simplified: register your custom action tag on the fly
  *
- * @var array RosarioSIS actions
+ * @var array Decan actions
  */
 $RosarioActions = [];
 /**  @example 'action_tag' => [ $arg1, $arg2, &$arg_passed_by_ref... ]
@@ -552,7 +552,7 @@ $RosarioActions = [];
 /**
  * Hooks a function on to a specific action.
  *
- * Actions are the hooks that the RosarioSIS core launches at specific points
+ * Actions are the hooks that the Decan core launches at specific points
  * during execution, or when specific events occur. Plugins can specify that
  * one or more of its PHP functions are executed at these points, using the
  * Action API.

@@ -3,7 +3,7 @@
  * Help functions
  * Mainly used in Help.php, Help_en.php & Bottom.php
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 
@@ -166,7 +166,7 @@ function HelpLoad( $force = false )
  * Get Help text for program (modname)
  * Defaults to 'default' and formats Help:
  * - Replace 'your child' with 'you' & 'your child\'s' with 'your' for students
- * - Replace 'RosarioSIS' with configured app name.
+ * - Replace 'Decan' with configured app name.
  *
  * @since 4.3
  *
@@ -197,8 +197,8 @@ function GetHelpText( $modname )
 		);
 	}
 
-	// Replace RosarioSIS with configured app name.
-	$help_text = str_replace( 'RosarioSIS', Config( 'NAME' ), $help_text );
+	// Replace Decan with configured app name.
+	$help_text = str_replace( 'Decan', Config( 'NAME' ), $help_text );
 
 	return $help_text;
 }

@@ -1,6 +1,6 @@
 # PLUGINS
 
-Place here the Plugins you want to add to RosarioSIS.
+Place here the Plugins you want to add to Decan.
 
 Note: if you wish to add menu entries, please create a [module](https://gitlab.com/francoisjacquet/rosariosis/-/tree/mobile/modules) instead.
 
@@ -10,11 +10,11 @@ Activate them from the _School > Configuration > Plugins_ menu
 
 ## Files
 
-- `functions.php`: required. Contains the functions to be automatically loaded by RosarioSIS.
-- `composer.json`: required. Contains plugin information & requirements: PHP version and/or extensions, RosarioSIS version, other add-ons, etc.
+- `functions.php`: required. Contains the functions to be automatically loaded by Decan.
+- `composer.json`: required. Contains plugin information & requirements: PHP version and/or extensions, Decan version, other add-ons, etc.
 - `install.sql`: optional. Contains the PostgreSQL queries run on plugin activation: configuration, plugin tables, data, etc.
 - `install_mysql.sql`: optional. Contains the MySQL queries run on plugin activation: configuration, plugin tables, data, etc.
-- `install_[2 letters locale code].sql`: optional. Contains the SQL queries run on plugin activation to translate texts: templates, etc. For example, to translate to French: `install_fr.sql`. Since RosarioSIS 7.3.
+- `install_[2 letters locale code].sql`: optional. Contains the SQL queries run on plugin activation to translate texts: templates, etc. For example, to translate to French: `install_fr.sql`. Since Decan 7.3.
 - `config.inc.php`: optional. Included by the `modules/School_Setup/includes/Plugins.inc.php` file when the _Configuration_ link in the plugin listing is clicked.
 
 ## Example

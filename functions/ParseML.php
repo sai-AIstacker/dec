@@ -2,7 +2,7 @@
 /**
  * Parse Multi Language data
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage functions
  */
 

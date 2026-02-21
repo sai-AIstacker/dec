@@ -3,7 +3,7 @@
  * Marking Periods functions
  *
  * @subpackage modules
- * @package RosarioSIS
+ * @package Decan
  */
 
 /**

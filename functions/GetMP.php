@@ -4,7 +4,7 @@
  *
  * @since 11.1 Allow override GetFullYearMP(), GetAllMP(), GetParentMP(), GetChildrenMP() & GetCurrentMP() functions
  *
- * @package RosarioSIS
+ * @package Decan
  * @package functions
  */
 

@@ -2,7 +2,7 @@
 /**
  * Portal Polls and Portal Notes functions.
  *
- * @package RosarioSIS
+ * @package Decan
  * @subpackage ProgramFunctions
  */
 

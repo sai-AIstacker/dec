@@ -5,7 +5,7 @@
  *
  * @since 4.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 if ( ! function_exists( 'CalendarDayClasses' ) )

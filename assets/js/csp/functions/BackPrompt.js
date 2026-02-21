@@ -3,7 +3,7 @@
  *
  * @since 12.5
  *
- * @package RosarioSIS
+ * @package Decan
  */
 
 // Note: do not add to `csp` object here: not defined
